@@ -255,3 +255,9 @@ select:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3.5px rgba(0
   .reveal,.pop,.opt{opacity:1!important;transform:none!important}
 }
 :focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:10px}
+
+/* ───────── correct curly apostrophe in windows ───────── */
+.lede{
+  font-variant-ligatures:none;
+  font-feature-settings:"liga" 0, "clig" 0;
+}
