@@ -7,6 +7,7 @@
   var $ = function (id) { return document.getElementById(id); };
   var yearSel = $('year'), qSel = $('qno'),
       prevBtn = $('prevBtn'), nextBtn = $('nextBtn'),
+      prevBtn2 = $('prevBtn2'), nextBtn2 = $('nextBtn2'), counter2 = $('counter2');
       counter = $('counter'), warn = $('warn'),
       result  = $('result'), qLabel = $('qLabel'),
       tile    = $('tile'),   ansLetter = $('ansLetter'),
