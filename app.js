@@ -215,11 +215,17 @@ if ('IntersectionObserver' in window) {
   /* ---------- restore state ---------- */
   var y0 = years[0], n0 = null;
   var m = (location.hash || '').match(/^#(\d{4})-(\d+)$/);
-  var saved = (localStorage.getItem('bio1a') || '').split('|');
-  if (m && DATA[m[1]] && DATA[m[1]][m[2]]) { y0 = m[1]; n0 = m[2]; }
-  else if (DATA[saved[0]] && DATA[saved[0]][saved[1]]) { y0 = saved[0]; n0 = saved[1]; }
-
-  yearSel.value = y0;
-  fillQuestions(y0, n0);
-  render(false);
+  // Only restore from URL hash, not localStorage
+  if (m && DATA[m[1]] && DATA[m[1]][m[2]]) { 
+    y0 = m[1]; 
+    n0 = m[2]; 
+    yearSel.value = y0;
+    fillQuestions(y0, n0);
+    render(false);
+  } else {
+    // First visit: just populate dropdowns, don't show result
+    yearSel.value = y0;
+    fillQuestions(y0, null);
+    result.hidden = true;
+  }
 })();
