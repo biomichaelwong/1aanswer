@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="mobile-web-app-capable" content="yes">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DSE Biology · Paper 1A Answer Finder</title>
+<meta name="description" content="Every answer, every reason — correct answers, correct rates, core concepts and option-by-option explanations for HKDSE Biology Paper 1A.">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Bio 1A">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════ Nav ═══════════ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <svg class="mark" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 2.8c3.9 3 5.9 5.9 5.9 8.9a5.9 5.9 0 1 1-11.8 0c0-3 2-5.9 5.9-8.9Z"/>
+      <path d="M12 21.2c0-5 1.6-8.5 4.4-11.2"/>
+    </svg>
+    <p class="nav-title"><strong>DSE Biology</strong> <span>· Paper 1A Answer Finder</span></p>
+  </div>
+</header>
+
+<main>
+
+  <!-- ═══════════ Hero ═══════════ -->
+  <section class="hero">
+    <h1>
+      <span class="line reveal">Every answer.</span>
+      <span class="line grad reveal d1">Every reason.</span>
+    </h1>
+    <p class="lede reveal d2">Pick a year and a question. That's it.</p>
+  </section>
+
+  <!-- ═══════════ Picker ═══════════ -->
+  <section class="section">
+    <div class="card picker reveal d3">
+
+      <div class="fields">
+        <div class="field">
+          <label for="year">Year</label>
+          <div class="sel"><select id="year" aria-label="Examination year"></select></div>
+        </div>
+        <div class="field">
+          <label for="qno">Question</label>
+          <div class="sel"><select id="qno" aria-label="Question number"></select></div>
+        </div>
+      </div>
+
+      <div class="nav-row">
+        <button class="pill" id="prevBtn" type="button">‹&nbsp;Previous</button>
+        <p class="counter" id="counter"></p>
+        <button class="pill" id="nextBtn" type="button">Next&nbsp;›</button>
+      </div>
+
+      <p class="warn" id="warn" hidden>Question bank could not be loaded. Please make sure <code>data.js</code> sits in the same folder as this page.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ Result ═══════════ -->
+  <section class="section" id="result" aria-live="polite" hidden>
+
+    <article class="card pop">
+      <p class="kicker" id="qLabel">—</p>
+      <div class="answer-grid">
+        <div class="tile" id="tile"><span id="ansLetter">–</span></div>
+
+        <div class="gauge">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="g-track" cx="60" cy="60" r="52"/>
+            <circle class="g-fill"  cx="60" cy="60" r="52" id="gFill"/>
+          </svg>
+          <div class="gauge-text"><b id="pctText">—</b><small>correct</small></div>
+        </div>
+
+        <div class="verdict">
+          <p class="kicker">Candidate performance</p>
+          <p class="badge" id="diffPill">—</p>
+          <p class="verdict-note" id="diffNote"></p>
+        </div>
+      </div>
+    </article>
+
+    <article class="card pop d1">
+      <p class="kicker">Core concept tested</p>
+      <p class="concept" id="concept"></p>
+    </article>
+
+    <article class="card pop d2 acc" id="acc">
+      <button class="acc-btn" id="accBtn" aria-expanded="false" aria-controls="accPanel">
+        <span>
+          <span class="acc-t1">Why each option is right or wrong</span>
+          <span class="acc-t2" id="accHint">Tap to reveal all four explanations</span>
+        </span>
+        <span class="plus" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <div class="acc-panel" id="accPanel"><div><div class="opts" id="opts"></div></div></div>
+    </article>
+
+    <button class="share" id="shareBtn" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4"/><path d="M8 8l4-4 4 4"/><path d="M5 14v5h14v-5"/></svg>
+      <span>Share this question</span>
+    </button>
+
+  </section>
+
+  <!-- ═══════════ Footer ═══════════ -->
+  <footer class="foot">
+    <p>Study aid for HKDSE Biology Paper 1A · Explanations are for revision guidance only.</p>
+    <p>This website is designed by <strong>Mr. Hiu Lam Wong (Michael)</strong>.</p>
+  </footer>
+
+</main>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
