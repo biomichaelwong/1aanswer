@@ -7,6 +7,7 @@
   var $ = function (id) { return document.getElementById(id); };
   var yearSel = $('year'), qSel = $('qno'),
       prevBtn = $('prevBtn'), nextBtn = $('nextBtn'),
+      prevBtn2 = $('prevBtn2'), nextBtn2 = $('nextBtn2'),   // ← add this line
       counter = $('counter'), warn = $('warn'),
       result  = $('result'), qLabel = $('qLabel'),
       tile    = $('tile'),   ansLetter = $('ansLetter'),
@@ -113,6 +114,10 @@
     var i = qList.indexOf(n);
     prevBtn.disabled = (i <= 0);
     nextBtn.disabled = (i === qList.length - 1);
+    // keep bottom buttons in sync
+    prevBtn2.disabled = (i <= 0);
+    nextBtn2.disabled = (i === qList.length - 1);
+    counter2.textContent = counter.textContent;   // reuse same text
     counter.textContent = 'Question ' + n + ' of ' + qList[qList.length - 1];
 
     localStorage.setItem('bio1a', y + '|' + n);
@@ -152,7 +157,9 @@
   }
   prevBtn.addEventListener('click', function () { step(-1); });
   nextBtn.addEventListener('click', function () { step(1); });
-
+  prevBtn2.addEventListener('click', function () { step(-1); });   // ← add
+  nextBtn2.addEventListener('click', function () { step(1); });    // ← add
+   
   /* ---------- selects (no Enter needed) ---------- */
   yearSel.addEventListener('change', function () {
     fillQuestions(yearSel.value, null);
