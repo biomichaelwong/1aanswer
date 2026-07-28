@@ -77,8 +77,9 @@ h1{font-weight:700;letter-spacing:-.037em;line-height:1.03;
   font-size:clamp(42px,11vw,68px)}
 .line{display:block}
 .grad{
-  background:linear-gradient(96deg,#0071e3 4%,#5e5ce6 34%,#a855f7 62%,#e8395c 96%);
-  -webkit-background-clip:text;background-clip:text;color:transparent;
+  background:linear-gradient(96deg,#0071e3 0%,#5e5ce6 18%,#a855f7 55%,#e8395c 82%,#ff3b30 100%);
+   background-clip:text;
+   -webkit-background-clip:text;background-clip:text;color:transparent;
   padding-bottom:.06em;
 }
 .lede{margin:20px auto 0;max-width:34ch;color:var(--ink-2);
