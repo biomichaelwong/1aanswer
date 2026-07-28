@@ -1,141 +1,221 @@
+/* ═══════════════════════════════════════════════════════
+   DSE Biology · Paper 1A Answer Finder — logic
+   ═══════════════════════════════════════════════════════ */
 (function () {
-  const yearBar = document.getElementById('yearBar');
-  const qGrid   = document.getElementById('qGrid');
-  const result  = document.getElementById('result');
-  const empty   = document.getElementById('empty');
+  'use strict';
 
-  const YEARS = Object.keys(DATA).sort();
-  let state = { year: null, q: null };
+  var $ = function (id) { return document.getElementById(id); };
+  var yearSel = $('year'), qSel = $('qno'),
+      prevBtn = $('prevBtn'), nextBtn = $('nextBtn'),
+      counter = $('counter'), warn = $('warn'),
+      result  = $('result'), qLabel = $('qLabel'),
+      tile    = $('tile'),   ansLetter = $('ansLetter'),
+      gFill   = $('gFill'),  pctText = $('pctText'),
+      diffPill= $('diffPill'), diffNote = $('diffNote'),
+      concept = $('concept'), optsBox = $('opts'),
+      acc     = $('acc'), accBtn = $('accBtn'), accHint = $('accHint'),
+      shareBtn= $('shareBtn'), toastEl = $('toast');
 
-  /* ---------- Build year segmented control ---------- */
-  YEARS.forEach(y => {
-    const b = document.createElement('button');
-    b.className = 'seg-btn';
-    b.textContent = y;
-    b.onclick = () => selectYear(y);
-    b.dataset.year = y;
-    yearBar.appendChild(b);
+  var CIRC = 2 * Math.PI * 52;
+
+  /* ---------- guard: is the database there? ---------- */
+  if (typeof DATA !== 'object' || DATA === null || !Object.keys(DATA).length) {
+    warn.hidden = false;
+    yearSel.disabled = qSel.disabled = prevBtn.disabled = nextBtn.disabled = true;
+    revealAll();
+    return;
+  }
+
+  var years = Object.keys(DATA).sort(function (a, b) { return b.localeCompare(a); });
+  var qList = [];
+
+  /* ---------- populate years ---------- */
+  years.forEach(function (y) {
+    var o = document.createElement('option');
+    o.value = y; o.textContent = y;
+    yearSel.appendChild(o);
   });
 
-  function selectYear(year) {
-    state.year = year;
-    state.q = null;
-    [...yearBar.children].forEach(b =>
-      b.classList.toggle('active', b.dataset.year === year));
-    buildQuestions(year);
-    hideResult();
-    syncHash();
+  function fillQuestions(y, keep) {
+    qList = Object.keys(DATA[y]).map(Number)
+              .filter(function (n) { return !isNaN(n); })
+              .sort(function (a, b) { return a - b; });
+    qSel.innerHTML = '';
+    qList.forEach(function (n) {
+      var o = document.createElement('option');
+      o.value = n; o.textContent = 'Question ' + n;
+      qSel.appendChild(o);
+    });
+    if (keep !== null && qList.indexOf(Number(keep)) > -1) qSel.value = keep;
   }
 
-  /* ---------- Build question grid ---------- */
-  function buildQuestions(year) {
-    qGrid.innerHTML = '';
-    Object.keys(DATA[year])
-      .map(Number).sort((a, b) => a - b)
-      .forEach(n => {
-        const b = document.createElement('button');
-        b.className = 'q-btn';
-        b.textContent = n;
-        b.dataset.q = n;
-        b.onclick = () => selectQuestion(n);
-        qGrid.appendChild(b);
+  /* ---------- render ---------- */
+  function render(scroll) {
+    var y = yearSel.value, n = Number(qSel.value), q = DATA[y] && DATA[y][n];
+    if (!q) return;
+
+    result.hidden = false;
+    qLabel.textContent = y + ' · Paper 1A · Question ' + n;
+
+    /* answer tile */
+    ansLetter.textContent = q.ans;
+    tile.classList.remove('flip');
+    void tile.offsetWidth;
+    tile.classList.add('flip');
+
+    /* correct rate */
+    if (q.pct === null || q.pct === undefined) {
+      pctText.textContent = '—';
+      gFill.style.strokeDashoffset = CIRC;
+      diffPill.textContent = 'Not published';
+      diffPill.removeAttribute('data-l');
+      diffNote.textContent = 'No official correct rate was released for this question.';
+    } else {
+      var p = Math.round(q.pct * 100);
+      pctText.textContent = p + '%';
+      gFill.style.strokeDashoffset = CIRC;
+      requestAnimationFrame(function () {
+        gFill.style.strokeDashoffset = CIRC * (1 - p / 100);
       });
-  }
-
-  function selectQuestion(n) {
-    state.q = n;
-    [...qGrid.children].forEach(b =>
-      b.classList.toggle('active', Number(b.dataset.q) === n));
-    render();
-    syncHash();
-  }
-
-  /* ---------- Render answer ---------- */
-  function render() {
-    const item = DATA[state.year][state.q];
-    if (!item) return;
-
-    const pctLine = (item.pct === null || item.pct === undefined)
-      ? `<p class="pct">Correct rate: not available</p>`
-      : `<p class="pct">Correct rate: <strong>${Math.round(item.pct * 100)}%</strong> of candidates</p>
-         <div class="bar"><i style="width:${Math.round(item.pct * 100)}%"></i></div>`;
-
-    const letters = ['A', 'B', 'C', 'D'];
-    const optHTML = letters.map(L => {
-      const text = item.opts[L];
-      if (!text) return '';
-      const ok = (L === item.ans);
-      return `
-        <div class="opt ${ok ? 'correct' : ''}">
-          <div class="opt-letter">${L}</div>
-          <div class="opt-body">
-            <span class="opt-tag">${ok ? 'Correct' : 'Incorrect'}</span>
-            <p class="opt-text">${text}</p>
-          </div>
-        </div>`;
-    }).join('');
-
-    result.innerHTML = `
-      <div class="answer-card">
-        <div class="ans-top">
-          <div class="ans-badge">${item.ans}</div>
-          <div class="ans-meta">
-            <p class="kicker">${state.year} · Paper 1A</p>
-            <h2>Question ${state.q}</h2>
-            ${pctLine}
-          </div>
-        </div>
-
-        <div class="concept">
-          <h3>Core concept</h3>
-          <p>${item.concept}</p>
-        </div>
-
-        <button class="toggle" id="toggleBtn">
-          <span id="toggleTxt">Show explanation for every option</span>
-          <span class="chev">▼</span>
-        </button>
-
-        <div class="options" id="optWrap">${optHTML}</div>
-      </div>`;
-
-    result.classList.remove('hidden');
-    empty.style.display = 'none';
-
-    const btn = document.getElementById('toggleBtn');
-    const wrap = document.getElementById('optWrap');
-    const txt = document.getElementById('toggleTxt');
-    btn.onclick = () => {
-      const open = wrap.classList.toggle('open');
-      btn.classList.toggle('open', open);
-      txt.textContent = open
-        ? 'Hide explanation'
-        : 'Show explanation for every option';
-    };
-  }
-
-  function hideResult() {
-    result.classList.add('hidden');
-    result.innerHTML = '';
-    empty.style.display = 'block';
-  }
-
-  /* ---------- Shareable link (#2013-12) ---------- */
-  function syncHash() {
-    history.replaceState(null, '',
-      state.q ? `#${state.year}-${state.q}` : (state.year ? `#${state.year}` : ' '));
-  }
-
-  function loadFromHash() {
-    const m = location.hash.replace('#', '').split('-');
-    const y = m[0], q = Number(m[1]);
-    if (DATA[y]) {
-      selectYear(y);
-      if (DATA[y][q]) selectQuestion(q);
-      return true;
+      var lv = p >= 70 ? 'easy' : p >= 50 ? 'mid' : 'hard';
+      diffPill.setAttribute('data-l', lv);
+      diffPill.textContent = lv === 'easy' ? 'Well answered'
+                           : lv === 'mid'  ? 'Moderately difficult'
+                           :                 'Challenging';
+      diffNote.textContent = lv === 'easy'
+        ? 'About ' + p + ' in every 100 candidates chose the correct option.'
+        : lv === 'mid'
+        ? 'Only ' + p + '% were correct — roughly half the cohort slipped here.'
+        : 'Just ' + p + '% were correct. A classic trap — read the explanations closely.';
     }
-    return false;
+
+    concept.textContent = q.concept || '';
+
+    /* options */
+    optsBox.innerHTML = '';
+    ['A', 'B', 'C', 'D'].forEach(function (L) {
+      var txt = q.opts && q.opts[L];
+      if (!txt) return;
+      var ok = (L === q.ans);
+      var d = document.createElement('div');
+      d.className = 'opt' + (ok ? ' ok' : '');
+      d.innerHTML = '<div class="opt-head"><span class="chip">' + L + '</span>' +
+                    '<span class="status">' + (ok ? 'Correct answer' : 'Incorrect') +
+                    '</span></div><p></p>';
+      d.querySelector('p').textContent = txt;
+      optsBox.appendChild(d);
+    });
+
+    closeAcc();
+    popIn();
+
+    /* nav state */
+    var i = qList.indexOf(n);
+    prevBtn.disabled = (i <= 0);
+    nextBtn.disabled = (i === qList.length - 1);
+    counter.textContent = 'Question ' + n + ' of ' + qList[qList.length - 1];
+
+    localStorage.setItem('bio1a', y + '|' + n);
+    history.replaceState(null, '', '#' + y + '-' + n);
+
+    if (scroll) {
+      var top = result.getBoundingClientRect().top + window.scrollY - 76;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    }
   }
 
-  if (!loadFromHash()) selectYear(YEARS[YEARS.length - 1]);
+  function popIn() {
+    var cards = result.querySelectorAll('.pop');
+    for (var i = 0; i < cards.length; i++) {
+      cards[i].classList.remove('in');
+      void cards[i].offsetWidth;
+      cards[i].classList.add('in');
+    }
+  }
+
+  /* ---------- accordion ---------- */
+  function closeAcc() {
+    acc.classList.remove('open');
+    accBtn.setAttribute('aria-expanded', 'false');
+    accHint.textContent = 'Tap to reveal all four explanations';
+  }
+  accBtn.addEventListener('click', function () {
+    var open = acc.classList.toggle('open');
+    accBtn.setAttribute('aria-expanded', String(open));
+    accHint.textContent = open ? 'Tap to hide' : 'Tap to reveal all four explanations';
+  });
+
+  /* ---------- prev / next ---------- */
+  function step(d) {
+    var i = qList.indexOf(Number(qSel.value)) + d;
+    if (i >= 0 && i < qList.length) { qSel.value = qList[i]; render(true); }
+  }
+  prevBtn.addEventListener('click', function () { step(-1); });
+  nextBtn.addEventListener('click', function () { step(1); });
+
+  /* ---------- selects (no Enter needed) ---------- */
+  yearSel.addEventListener('change', function () {
+    fillQuestions(yearSel.value, null);
+    render(true);
+  });
+  qSel.addEventListener('change', function () { render(true); });
+
+  /* ---------- share ---------- */
+  function toast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toast.t);
+    toast.t = setTimeout(function () { toastEl.classList.remove('show'); }, 2100);
+  }
+  shareBtn.addEventListener('click', function () {
+    var y = yearSel.value, n = qSel.value;
+    var payload = {
+      title: 'DSE Biology · Paper 1A',
+      text: y + ' Paper 1A · Question ' + n + ' — answer ' + DATA[y][n].ans,
+      url: location.href
+    };
+    if (navigator.share) {
+      navigator.share(payload).catch(function () {});
+    } else if (navigator.clipboard) {
+      navigator.clipboard.writeText(location.href)
+        .then(function () { toast('Link copied'); })
+        .catch(function () {});
+    }
+  });
+
+  /* ---------- keyboard (iPad Magic Keyboard) ---------- */
+  document.addEventListener('keydown', function (e) {
+    var t = e.target.tagName;
+    if (t === 'SELECT' || t === 'INPUT') return;
+    if (e.key === 'ArrowRight') { step(1);  e.preventDefault(); }
+    if (e.key === 'ArrowLeft')  { step(-1); e.preventDefault(); }
+    if (e.key === 'Enter' || e.key === ' ') {
+      if (t !== 'BUTTON') { accBtn.click(); e.preventDefault(); }
+    }
+  });
+
+  /* ---------- scroll reveal ---------- */
+  function revealAll() {
+    var els = document.querySelectorAll('.reveal');
+    for (var i = 0; i < els.length; i++) els[i].classList.add('in');
+  }
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    }, { threshold: .12, rootMargin: '0px 0px -6% 0px' });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+  } else { revealAll(); }
+
+  /* ---------- restore state ---------- */
+  var y0 = years[0], n0 = null;
+  var m = (location.hash || '').match(/^#(\d{4})-(\d+)$/);
+  var saved = (localStorage.getItem('bio1a') || '').split('|');
+  if (m && DATA[m[1]] && DATA[m[1]][m[2]]) { y0 = m[1]; n0 = m[2]; }
+  else if (DATA[saved[0]] && DATA[saved[0]][saved[1]]) { y0 = saved[0]; n0 = saved[1]; }
+
+  yearSel.value = y0;
+  fillQuestions(y0, n0);
+  render(false);
 })();
