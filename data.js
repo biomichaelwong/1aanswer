@@ -2913,6 +2913,1170 @@ A:`Option A: Incorrect. Process 1 (N₂ → ammonia) is bacterial nitrogen fixat
 B:`Option B: Incorrect. Process 6 (ammonia → nitrite) is bacterial nitrification, but process 2 is lightning, a physical, non-biological process.`,
 C:`Option C: Correct. Process 3 (nitrate → nitrogen gas) is denitrification by denitrifying bacteria in waterlogged, poorly aerated soil, and process 7 (plant/animal protein → ammonia) is decomposition/putrefaction by decomposers including bacteria and fungi. Both involve bacteria.`,
 D:`Option D: Incorrect. Process 4 (nitrite → nitrate) is bacterial nitrification, but process 8 (plant protein → animal protein) is simply the animal digesting plant protein and building its own — no bacteria required.`}}
+},
+
+/* ==================== 2022 ==================== */
+"2022": {
+1:{ans:"A",pct:0.56,
+concept:`Movement of substances across the cell membrane. The fluid mosaic model means the membrane is a phospholipid bilayer with embedded proteins. Small, non-polar molecules (O₂, CO₂) diffuse directly through the lipid bilayer by simple diffusion. Large or polar solutes (e.g. glucose) cannot cross the hydrophobic core and require carrier proteins (facilitated diffusion). Water crosses mainly through channel proteins (aquaporins) by osmosis. In the diagram, X passes straight through the bilayer, Y passes through a globular (carrier) protein, Z passes through a pore-like channel protein.`,
+opts:{
+A:`Option A: Correct. Oxygen at X — small, non-polar, lipid-soluble, so it diffuses through the phospholipid bilayer. Glucose at Y — a large polar sugar that binds a carrier protein which changes shape to move it down its concentration gradient. Water at Z — polar but very small, moving rapidly through water channel proteins.`,
+B:`Option B: Incorrect. Glucose cannot pass directly through the hydrophobic fatty acid core at X, and oxygen does not need a channel protein at Z.`,
+C:`Option C: Incorrect. Although some water does cross the bilayer slowly, the question requires the best match; more importantly oxygen does not require a carrier protein (Y), as it is lipid-soluble.`,
+D:`Option D: Incorrect. Same problem as C for X, plus placing oxygen at a channel protein (Z) contradicts its free lipid solubility.`}},
+
+2:{ans:"C",pct:0.6,
+concept:`DNA structure. DNA is double-stranded, with the two strands held together by hydrogen bonds between complementary base pairs: A pairs with T, G pairs with C. Therefore A = T and G = C in amount, so (A + C) must equal (T + G) = 50% of all bases. This is Chargaff's rule, and it depends on double-strandedness plus complementary pairing, not on the helical twist.`,
+opts:{
+A:`Option A: Incorrect. It includes (1) helical structure, which is only the three-dimensional shape of the molecule and has no bearing on base ratios, and it omits (3), the essential complementary pairing rule.`,
+B:`Option B: Incorrect. Again includes the irrelevant helical structure and omits (2). Complementary pairing alone is meaningless unless there are two strands to pair.`,
+C:`Option C: Correct. Statements (2) and (3) together are exactly what is needed: two strands, paired complementarily, so A = T and G = C, giving A + C = 50%.`,
+D:`Option D: Incorrect. Statement (1) is a true fact about DNA but is not part of the explanation. A relaxed, non-helical double strand with complementary pairing would show the same 50% result.`}},
+
+3:{ans:"A",pct:0.35,
+concept:`Linking Mendel's classical "particulate" inheritance with modern genetics. A "pair of heredity factors" controlling one characteristic corresponds to a pair of alleles (alternative forms of a gene at the same locus). The separation of that pair (Mendel's law of segregation) occurs when homologous chromosomes separate at anaphase of the first meiotic division. The low success rate reflects confusion between separation of homologues (meiosis I) and separation of sister chromatids (meiosis II).`,
+opts:{
+A:`Option A: Correct. Alleles are the modern equivalent of Mendel's factors, and the two alleles of a gene are carried on homologous chromosomes, which separate in the first meiotic division.`,
+B:`Option B: Incorrect. The heredity factors are alleles, but the second meiotic division separates sister chromatids, which normally carry identical alleles, so no segregation of a pair of different alleles happens there.`,
+C:`Option C: Incorrect. Chromosomes are the structures that carry many genes, not the factor controlling a single characteristic. Mendel described one pair per characteristic.`,
+D:`Option D: Incorrect. Wrong on both counts, for the reasons given in B and C.`}},
+
+4:{ans:"B",pct:0.66,
+concept:`Diploid number and chromosome behaviour in early meiosis. Before meiosis I, DNA has already replicated, so each chromosome appears as two sister chromatids joined at a centromere. At an early stage of meiosis the cell still contains the full diploid set. Counting distinct centromeres (each X-shaped structure) gives the diploid chromosome number. The diagram shows 4 such chromosomes — two long and two short, i.e. two homologous pairs.`,
+opts:{
+A:`Option A: Incorrect. 2 would be the count only if you mistakenly counted homologous pairs (bivalents) rather than individual chromosomes.`,
+B:`Option B: Correct. Four separate chromosomes, each with two chromatids, are visible, so the diploid number of the somatic cells is 4.`,
+C:`Option C: Incorrect. 8 comes from counting chromatids instead of chromosomes. Two chromatids joined at one centromere are still one chromosome.`,
+D:`Option D: Incorrect. 16 would require doubling twice over; there is no basis for this from the diagram.`}},
+
+5:{ans:"B",pct:0.44,
+concept:`Metaphase I of meiosis. During prophase I, homologous chromosomes pair up by synapsis to form bivalents. At metaphase I these bivalents line up at the equator, so the homologous partners lie side by side across the equator (not each chromosome individually on the equator, as in mitosis). Chromosomes are still double-chromatid at this point, and pairs of the same size stay together.`,
+opts:{
+A:`Option A: Incorrect. It shows only two chromosomes of the same size, losing two chromosomes altogether, and shows no pairing of homologues.`,
+B:`Option B: Correct. Two bivalents are shown at the equator — a small pair and a large pair — each chromosome still with two chromatids. This is metaphase I of a cell with a diploid number of 4.`,
+C:`Option C: Incorrect. This shows chromosomes arranged in a single file along the equator without homologous pairing, which resembles mitotic metaphase rather than metaphase I.`,
+D:`Option D: Incorrect. Here a large chromosome is paired with a small one. Homologous chromosomes must be the same size and shape and carry genes for the same characteristics, so a large–small pairing is impossible.`}},
+
+6:{ans:"D",pct:0.51,
+concept:`Interaction of genes and environment in determining phenotype. Identical twins are genetically identical; fraternal twins share only about half their alleles. If a trait is determined almost entirely by genes, identical twins will be far more similar than fraternal twins. If the environment plays a large role, fraternal twins (who share the same environment) will be nearly as similar as identical twins — that is, the gap between the two bars will be small.`,
+opts:{
+A:`Option A: Incorrect. P shows about 100% versus 28%, the largest gap of all four traits, so P is the most strongly genetically determined trait.`,
+B:`Option B: Incorrect. Q shows roughly 100% versus 68%, a gap of about 32%, which is larger than that of S.`,
+C:`Option C: Incorrect. R shows about 90% versus 22%, a gap of about 68%, indicating strong genetic control.`,
+D:`Option D: Correct. S shows about 83% versus 60%, a gap of only about 23%, the smallest difference between identical and fraternal twins. The shared environment accounts for most of the similarity, so S is the trait most affected by environmental factors.`}},
+
+7:{ans:"C",pct:0.64,
+concept:`Molecular evidence for evolution and phylogenetic relationships. The more similar the amino acid sequence of a homologous protein in two organisms, the fewer mutations have accumulated since they diverged, and the more recently they shared a common ancestor. Anatomical features such as a cell wall are not reliable indicators of relatedness, because a cell wall is present in bacteria, plants and fungi alike and may be a result of convergence or of retention from a distant ancestor.`,
+opts:{
+A:`Option A: Incorrect. A cell wall is not diagnostic of prokaryotes. Plants, fungi and algae are all eukaryotes with cell walls, so the presence of a wall in X and Y proves nothing about the absence of a nucleus.`,
+B:`Option B: Incorrect. "Least advanced" is not a valid deduction. Sequence similarity measures divergence time, not complexity or advancement, and all three lineages have been evolving for the same length of time.`,
+C:`Option C: Correct. X and Z share 55% sequence similarity while X and Y share only 45%. Higher similarity means fewer accumulated differences, so X and Z diverged more recently and are more closely related, even though Z lacks a cell wall.`,
+D:`Option D: Incorrect. This reverses the data. Y is only 45% similar to X, and no direct Y–Z comparison is given, so we cannot claim Y is closer to Z than X is; the figures we do have point the other way.`}},
+
+8:{ans:"D",pct:0.62,
+concept:`Ecological succession and nutrient cycling. Early stages of succession are limited by the lack of soil nutrients, especially nitrogen, which plants need to make amino acids and proteins. Decomposers (saprophytic bacteria and fungi) break down dead organic matter and release nitrogen as ammonium compounds through ammonification. These, together with nitrification products, can be absorbed by plant roots, allowing more demanding plant species to colonise and so speeding up succession.`,
+opts:{
+A:`Option A: Incorrect. The physical and chemical breakdown of rock into soil particles is weathering, carried out by pioneer organisms such as lichens and by physical agents, not by decomposition of organic matter.`,
+B:`Option B: Incorrect. Decomposers do not remove organic matter from the soil in a way that helps succession; they convert it into humus and inorganic nutrients. Adding humus improves water retention and fertility, so "remove" is the wrong description.`,
+C:`Option C: Incorrect. Decomposers do release CO₂ through respiration, but atmospheric CO₂ is not the factor limiting plant growth during early succession, so this does not explain why succession speeds up.`,
+D:`Option D: Correct. Releasing nitrogen into the soil as ammonium compounds relieves the main nutrient limitation, enabling larger plants to establish and driving succession forwards.`}},
+
+9:{ans:"C",pct:0.73,
+concept:`Ecological niche and interspecific competition. A niche is the full role of a species in its habitat, including where it lives, what it feeds on and how it interacts with others. By feeding in different vertical zones of the same tree, the three bird species occupy different niches. This resource partitioning means their niches overlap little, so interspecific competition is reduced and coexistence over many years is possible.`,
+opts:{
+A:`Statement (1): Incorrect. Nothing in the diagram indicates insect distribution. In fact, if the birds feed in separate zones for years, the insects are more likely unevenly distributed or of different species at each level.`,
+B:`Statement (2): Correct. Different feeding zones and food sources mean different ecological niches.`,
+C:`Statement (3): Correct. Because the niches barely overlap, the three species rarely compete for the same food in the same place, so interspecific competition is low, which is why all three can survive together long term.`,
+D:`Option A: Incorrect. It includes the unsupported statement (1).`}},
+
+10:{ans:"D",pct:0.8,
+concept:`Interspecific relationships. In commensalism, one species benefits while the other is neither helped nor harmed. Comparing the "living alone" and "living together" graphs shows that X grows faster (steeper line, larger population) when Y is present, while Y's growth curve is unchanged. So X gains and Y is unaffected.`,
+opts:{
+A:`Option A: Incorrect. In predation the prey population would be reduced by the predator, and the two populations typically fluctuate in a linked cycle. Here neither population is depressed.`,
+B:`Option B: Incorrect. Mutualism requires both species to benefit. Y's population growth is identical in both graphs, so Y gains nothing.`,
+C:`Option C: Incorrect. In competition both species would grow more slowly together than alone, because they share a limited resource. Here X actually does better together.`,
+D:`Option D: Correct. X benefits (faster population growth when together) while Y is unaffected, which is the definition of commensalism.`}},
+
+11:{ans:"B",pct:0.51,
+concept:`Respirometer principle. Germinating seeds respire aerobically: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. Oxygen is taken up from the air in the tube and carbon dioxide is released. The coloured liquid moves only if the total gas volume (and hence pressure) inside changes. With a CO₂ absorbent (e.g. soda lime), the CO₂ produced is removed, so only the O₂ uptake shows up as a volume decrease. Without an absorbent, the volume of CO₂ given out roughly equals the volume of O₂ taken in (RQ ≈ 1 for carbohydrate), so there is no net change.`,
+opts:{
+A:`Option A: Incorrect. In P the gas volume falls, so the liquid is drawn towards the tube (left), not pushed outwards to the right.`,
+B:`Option B: Correct. In P, O₂ is consumed and CO₂ is absorbed, so gas volume and pressure inside fall and the coloured liquid moves left towards the seeds. In Q, water does not absorb the CO₂ appreciably, so O₂ used is replaced by an equal volume of CO₂, pressure is unchanged and the liquid stays still.`,
+C:`Option C: Incorrect. P cannot stay still because the CO₂ absorbent guarantees a net loss of gas volume.`,
+D:`Option D: Incorrect. Both parts are wrong: P falls in volume, and Q shows no net volume change, so the liquid does not move right.`}},
+
+12:{ans:"B",pct:0.74,
+concept:`Identifying the gas produced in respiration. To show the identity of the gas (CO₂), you need a chemical test, not a volume measurement. Lime water turns milky (a white precipitate of calcium carbonate) with carbon dioxide. A respirometer measuring liquid movement only tells you about volume change, and boiled (dead) seeds serve as a control showing no respiration, not as an identity test.`,
+opts:{
+A:`Option A: Incorrect. An oxygen absorbent with living seeds only removes O₂, forcing anaerobic conditions. The set-up still just measures volume change and gives no chemical identification of the gas.`,
+B:`Option B: Correct. Living germinating seeds respire and release CO₂, which turns the lime water milky. The colour change positively identifies the gas as carbon dioxide.`,
+C:`Option C: Incorrect. Boiled seeds are dead: enzymes are denatured, so no respiration and no gas is produced. This is a control, and there is no reagent present to identify any gas.`,
+D:`Option D: Incorrect. Same problem as C. Dead seeds produce no CO₂, and water gives no visible test for it.`}},
+
+13:{ans:"B",pct:0.69,
+concept:`Graph selection and data type. The independent variable here (type of substrate) is discrete/categorical, not continuous. Discrete categories must be plotted as separate bars of equal width with gaps between them. Line graphs and lines of best fit are only valid for continuous numerical variables, where intermediate values exist and trends can be interpolated.`,
+opts:{
+A:`Option A: Incorrect. A line graph implies a continuous trend between glucose, maltose, sucrose and fructose, but there is no intermediate substrate between them, so the connecting line is biologically meaningless.`,
+B:`Option B: Correct. A bar chart with separated bars correctly displays the discrete substrate categories against the amount of CO₂ produced, allowing direct comparison of respiration rates.`,
+C:`Option C: Incorrect. A line of best fit implies a mathematical relationship between the x and y variables. Substrate identity is not a numerical quantity, so no such correlation can exist.`,
+D:`Option D: Incorrect. A pie chart shows proportions of a single whole. These four values are independent measurements from separate treatments, not parts of one total, so percentages of a "whole" are misleading.`}},
+
+14:{ans:"A",pct:0.55,
+concept:`Site of anaerobic respiration. In yeast, anaerobic respiration (alcoholic fermentation) is glycolysis followed by conversion of pyruvate to ethanol and carbon dioxide. All of these reactions are catalysed by enzymes in the cytoplasm. The mitochondria are used only in aerobic respiration (Krebs cycle in the matrix, electron transport on the inner membrane), and they are not involved when oxygen is absent.`,
+opts:{
+A:`Option A: Correct. Under anaerobic conditions, glucose is broken down to pyruvate by glycolysis in the cytoplasm, and pyruvate is then decarboxylated to ethanol and CO₂, also in the cytoplasm.`,
+B:`Option B: Incorrect. The cell membrane controls entry and exit of substances; it is not a site of respiratory enzyme activity in yeast.`,
+C:`Option C: Incorrect. CO₂ is produced in the mitochondrial matrix by the Krebs cycle, but only during aerobic respiration. The investigation specifies anaerobic respiration.`,
+D:`Option D: Incorrect. The inner mitochondrial membrane carries the electron transport chain, which requires oxygen as the final electron acceptor and produces water, not carbon dioxide.`}},
+
+15:{ans:"D",pct:0.7,
+concept:`Gas exchange at the alveolus. Blood arriving from the heart travels in the pulmonary artery and is deoxygenated: it has high CO₂ and low O₂ concentration. At the alveolar capillaries, CO₂ diffuses down its concentration gradient from blood into the alveolar air, and O₂ diffuses in the opposite direction. Blood leaving in the pulmonary vein is therefore lowest in CO₂.`,
+opts:{
+A:`Option A: Incorrect. P is the bronchiole/air passage carrying inhaled air, which contains only about 0.04% CO₂ — far less than blood.`,
+B:`Option B: Incorrect. Q is the vessel taking blood to the heart (pulmonary vein). Its CO₂ has just been unloaded into the alveoli, so it has the lowest CO₂ of the blood vessels.`,
+C:`Option C: Incorrect. R is the alveolus. Alveolar air has more CO₂ than atmospheric air, but still less than the deoxygenated blood, since diffusion runs from blood into the alveolus.`,
+D:`Option D: Correct. S carries blood from the heart, i.e. deoxygenated blood in the pulmonary arteriole. This has the highest CO₂ concentration, which is what drives CO₂ diffusion into the alveolus.`}},
+
+16:{ans:"B",pct:0.48,
+concept:`Adaptive features of the gas exchange surface. An efficient respiratory surface has a large surface area, a thin wall (one cell thick) for a short diffusion distance, a dense blood supply to maintain steep concentration gradients, and a moist surface. The question asks which features can actually be seen in the diagram — an external view, not a section.`,
+opts:{
+A:`Statement (1): Correct and visible. The respiratory tract clearly ends in a cluster of numerous rounded alveoli, greatly increasing the surface area for diffusion.`,
+B:`Statement (2): Not shown. Wall thickness can only be judged from a cross-section or a labelled thickness. The diagram shows the outside of the alveoli, so thinness cannot be deduced from it, even though it is a true feature of alveoli.`,
+C:`Statement (3): Correct and visible. A dense network of capillaries is drawn covering the alveoli, which maintains a steep concentration gradient by continuously removing O₂ and delivering CO₂.`,
+D:`Option A: Incorrect. It includes (2), which the diagram cannot demonstrate.`}},
+
+17:{ans:"C",pct:0.69,
+concept:`Mechanism of breathing. During inhalation, the external intercostal muscles and diaphragm contract, the rib cage moves up and out and the thoracic volume increases — so the chest circumference increases and the elastic band is stretched more, raising the tension. During exhalation these muscles relax, the rib cage falls, thoracic volume decreases, chest circumference shrinks and band tension falls. So a falling tension on the graph corresponds to exhalation.`,
+opts:{
+A:`Option A: Incorrect. From P to R the tension is rising, which reflects chest expansion — this is inhalation, not exhalation.`,
+B:`Option B: Incorrect. QS spans part of the rising phase (QR) and part of the falling phase (RS), so it mixes inhalation with exhalation rather than isolating exhalation.`,
+C:`Option C: Correct. From R (peak tension) to T (trough) the tension falls continuously, showing the chest recoiling as thoracic volume decreases. This whole period is exhalation.`,
+D:`Option D: Incorrect. From S to U the tension is still falling to T but then begins rising after the trough, so SU includes the start of the next inhalation.`}},
+
+18:{ans:"A",pct:0.61,
+concept:`Relating chest volume to lung pressure. Boyle's law applies: when thoracic volume increases, the pressure inside the lungs falls below atmospheric pressure, so air flows in. When thoracic volume decreases, lung pressure rises above atmospheric and air flows out. Rising band tension therefore means increasing volume and decreasing lung pressure.`,
+opts:{
+A:`Statement (1): Correct. QR shows rising tension, so the chest is expanding. This is inhalation, which requires the diaphragm to contract and flatten, increasing thoracic volume.`,
+B:`Statement (2): Incorrect. TU shows tension rising from the trough, so the chest is expanding again — this is inhalation, during which lung air pressure decreases below atmospheric pressure, not increases.`,
+C:`Statement (3): Incorrect. V lies on the rising limb of the curve, so the person is inhaling. Lung pressure at that moment is lower than atmospheric pressure, which is precisely what drives air into the lungs.`,
+D:`Option A: Correct. Only (1) is a valid interpretation.`}},
+
+19:{ans:"D",pct:0.51,
+concept:`Heart valves and the route of blood. Valves ensure one-way flow. The photograph shows a valve with three cusps/flaps attached, characteristic of a tricuspid valve, which lies between the right atrium and right ventricle. Having passed through it, the blood is in the right ventricle, and the "gate ahead" is the pulmonary (semilunar) valve leading to the pulmonary artery. In the left atrium or right atrium, the cell would not yet have passed through an atrioventricular valve.`,
+opts:{
+A:`Option A: Incorrect. Blood enters the left atrium from the pulmonary vein, which has no valve at its entrance, so no valve would have been passed.`,
+B:`Option B: Incorrect. To reach the left ventricle the cell would pass the bicuspid (mitral) valve, which has two cusps, not the three shown.`,
+C:`Option C: Incorrect. Blood enters the right atrium from the vena cava without passing through a heart valve.`,
+D:`Option D: Correct. Passing through the three-cusped tricuspid valve places the cell in the right ventricle, with the pulmonary valve as the next "gate".`}},
+
+20:{ans:"B",pct:0.46,
+concept:`Pressure differences in the heart (ventricular septal defect). The left ventricle has a much thicker muscular wall than the right because it pumps blood through the whole systemic circuit, whereas the right ventricle only pumps to the lungs. When both ventricles contract simultaneously, the left ventricle generates a far higher pressure, so blood flows through the hole from the high-pressure left side to the low-pressure right side, then follows the right ventricle's normal exit route into the pulmonary artery.`,
+opts:{
+A:`Option A: Incorrect. The direction of shunting is right, but the aorta arises from the left ventricle. Blood in the right ventricle cannot enter the aorta.`,
+B:`Option B: Correct. Blood is forced from the higher-pressure left ventricle into the right ventricle, and from there is pumped out through the pulmonary artery to the lungs.`,
+C:`Option C: Incorrect. Flow from right to left is against the pressure gradient, since the thicker left ventricle wall generates greater pressure during contraction.`,
+D:`Option D: Incorrect. The direction is wrong, and blood already in the left ventricle would exit via the aorta rather than the pulmonary artery.`}},
+
+21:{ans:"D",pct:0.47,
+concept:`Homeostatic control of blood glucose by the liver. In the diagram, X is the hepatic artery (blood entering the liver from the aorta), Y is the hepatic portal vein (blood from the small intestine to the liver), and Z is the hepatic vein (blood leaving the liver). During fasting, no glucose is being absorbed from the gut, so blood in the hepatic portal vein is glucose-poor. Meanwhile, glucagon stimulates the liver to break down glycogen (glycogenolysis) and release glucose into the blood, so blood leaving the liver is glucose-rich.`,
+opts:{
+A:`Option A: Incorrect. It places X highest. X is the hepatic artery carrying general systemic blood; the liver's output (Z) must be higher because glucose has just been added to it.`,
+B:`Option B: Incorrect. Y is placed highest, but this is only true after a meal, when digested glucose is absorbed into the hepatic portal vein. During fasting, absorption has stopped and Y is the lowest.`,
+C:`Option C: Incorrect. Z is correctly highest, but Y cannot exceed X. Blood in Y has passed through the intestinal capillaries without gaining glucose, and intestinal tissues have used some for respiration, so Y is lower than X.`,
+D:`Option D: Correct. Z (hepatic vein) is highest because the liver has just released glucose from glycogen breakdown. X (hepatic artery) is intermediate, carrying normal systemic blood. Y (hepatic portal vein) is lowest, since no glucose is absorbed during fasting and gut tissue has consumed some.`}},
+
+22:{ans:"D",pct:0.27,
+concept:`Structure and function of the hepatic portal vein. Y links the small intestine to the liver. A portal vein is unusual because it begins in one capillary network and ends in another instead of returning directly to the heart. This is the lowest-scoring question on the paper, mainly because students overlook that all blood, including portal blood, carries hormones dissolved in the plasma. Options Biological Explanation: Statement (1): Correct. Hormones are secreted directly into the bloodstream and carried in the plasma to target organs. Blood in Y carries hormones such as insulin and glucagon from the pancreas, which is why the liver is a major target organ. Statement (2): Correct. Blood in Y has already passed through the capillary network of the small intestine, where the tissues removed oxygen for respiration and released CO₂. It is therefore deoxygenated. Statement (3): Correct. This is the defining feature of a portal vessel: it starts from the capillary network in the wall of the small intestine and ends in the sinusoids/capillary network of the liver.`,
+opts:{
+A:`Option A: Incorrect. It omits the defining portal feature (3).`,
+B:`Option B: Incorrect. It omits (2). Being a vein carrying blood from a respiring organ, Y must be deoxygenated.`,
+C:`Option C: Incorrect. It omits (1). Hormone transport is a general function of all blood, including this vein.`,
+D:`Option D: Correct. All three statements are valid descriptions of the hepatic portal vein.`}},
+
+23:{ans:"B",pct:0.51,
+concept:`Structure of a synovial joint. A joint is the point where two or more bones meet. Its components include the bones themselves, cartilage covering the bone ends, synovial fluid and membrane, the joint capsule, and ligaments joining bone to bone. A tendon joins muscle to bone, so it is part of the muscle–bone attachment rather than a structural component of the joint itself. Options Biological Explanation: Statement (1): Correct. Bones are essential; without at least two bones meeting there is no joint. Their smooth cartilage-covered ends reduce friction. Statement (2): Incorrect. A tendon is inelastic connective tissue joining muscle to bone. It transmits the force of muscle contraction but is not a component of the joint structure. Statement (3): Correct. Ligaments are strong, slightly elastic connective tissue that hold the bones together at the joint and limit the range of movement, preventing dislocation.`,
+opts:{
+A:`Option A: Incorrect. It includes the tendon, which belongs to the muscle attachment, not the joint.`,
+B:`Option B: Correct. Bone and ligament are both joint components.`,
+C:`Option C: Incorrect. It includes the tendon and omits bone, the most fundamental component.`,
+D:`Option D: Incorrect. It wrongly counts the tendon as part of the joint.`}},
+
+24:{ans:"A",pct:0.52,
+concept:`Structure of the retina. The yellow spot (fovea centralis) lies at the centre of the retina on the visual axis and contains a very high density of cone cells but no rods. It is responsible for the sharpest, most detailed central vision and for colour vision in bright light. The rest of the retina is dominated by rod cells, which give peripheral vision that is sensitive to dim light but poor in detail. Degeneration of the light-sensitive cells in the yellow spot therefore destroys the detailed central portion of the visual field while leaving peripheral vision largely intact.`,
+opts:{
+A:`Option A: Correct. Loss of cones in the fovea means the central part of the image, focused directly on the yellow spot, becomes blurred or blank, while the surrounding periphery is still detected by the rod cells elsewhere on the retina. This pattern of preserved peripheral vision with a damaged centre matches the defect described.`,
+B:`Option B: Incorrect. A uniformly blurred image across the whole visual field indicates a refractive or lens problem, such as an unfocused image due to a defective lens or cornea, not localised destruction of receptors in one small region of the retina.`,
+C:`Option C: Incorrect. This shows tunnel vision, where only the centre is visible and the periphery is lost. That is the opposite pattern, produced by degeneration of the peripheral rod-rich retina, not the fovea.`,
+D:`Option D: Incorrect. Total blackness would require loss of all photoreceptors across the entire retina, or damage to the optic nerve. The defect described is confined to the yellow spot, so peripheral rods still function.`}},
+
+25:{ans:"C",pct:0.56,
+concept:`Phototropism and experimental deduction. Positive phototropism is growth towards a light source, which benefits the plant by maximising light absorption for photosynthesis. Darwin's classic experiments compared an intact coleoptile, one with the tip covered, and one with the region below the tip covered. Crucially, deductions must be limited to what the results actually show: Darwin's work located the light-detecting region but did not identify any chemical messenger. Options Biological Explanation: Statement (1): Incorrect as a deduction. The experiments show only that the tip is needed for the response. No substance was extracted, isolated or transferred, so the existence of auxin cannot be concluded from these three set-ups. Auxin was identified by later workers such as Boysen-Jensen and Went. Statement (2): Correct. In Set-up 1 the uncovered coleoptile bends towards the unilateral light, which is by definition a positive phototropic response. Set-up 3 confirms it, since bending still occurs when only the lower part is shielded. Statement (3): Correct. Covering the tip (Set-up 2) abolishes bending even though light is still present, whereas covering the region below the tip (Set-up 3) does not. The tip must therefore be the site that detects the direction of light.`,
+opts:{
+A:`Option A: Incorrect. It includes the unjustified claim about auxin.`,
+B:`Option B: Incorrect. It includes (1) and omits the directly observable response (2).`,
+C:`Option C: Correct. Only (2) and (3) follow from the results.`,
+D:`Option D: Incorrect. It accepts (1), which goes beyond the evidence.`}},
+
+26:{ans:"C",pct:0.44,
+concept:`The Calvin cycle (carbon fixation stage of photosynthesis). CO₂ combines with the 5-C acceptor RuBP, catalysed by an enzyme, to form the 3-C compound GP. GP is then reduced using ATP and NADPH from the light-dependent reactions, and some of the product is used to regenerate RuBP. When CO₂ is suddenly reduced, less RuBP is used up in fixation, so RuBP (5-C) accumulates, while less GP (3-C) is formed and the existing GP continues to be converted, so 3-C falls.`,
+opts:{
+A:`Option A: Incorrect. The change in 3-C is right, but the reason is wrong. Reduction of GP was already happening at 1% CO₂; the fall is caused by a shortage of CO₂ to make new GP, not by increased reduction.`,
+B:`Option B: Incorrect. ATP supply is unchanged because the light-dependent reactions depend on light intensity, not CO₂ concentration. Light was constant throughout.`,
+C:`Option C: Correct. With only 0.03% CO₂, the rate of carbon fixation drops, so the 5-C acceptor RuBP is consumed more slowly. Since it is still being regenerated from the cycle, RuBP accumulates, matching the initial rise in the dashed line just after 200 s.`,
+D:`Option D: Incorrect. The rise in 5-C is right, but regeneration has not increased. Regeneration depends on GP, which is falling. The accumulation happens because RuBP is being used up more slowly, not made faster.`}},
+
+27:{ans:"D",pct:0.62,
+concept:`Fair test and controlled variables. In this experiment the only variable being changed is CO₂ concentration, so every other factor that could affect the rate of photosynthesis or enzyme activity must be held constant. The Calvin cycle is enzyme-catalysed, and the reduction of GP depends on ATP and NADPH from the light-dependent reactions. Options Biological Explanation: Statement (1): Must be constant. Enzymes such as rubisco have an optimum pH; a change in pH alters the charges on the active site, changing its shape and reducing the rate of carbon fixation, which would confound the results. Statement (2): Must be constant. Temperature affects the kinetic energy of molecules and enzyme activity. Too high a temperature denatures the enzymes of the Calvin cycle; too low slows all reactions down. Statement (3): Must be constant. Light intensity determines the supply of ATP and NADPH from the light-dependent reactions, which directly controls the conversion of the 3-C compound and the regeneration of the 5-C acceptor.`,
+opts:{
+A:`Option A: Incorrect. Leaving light intensity uncontrolled would change ATP/NADPH supply and alter both compound concentrations.`,
+B:`Option B: Incorrect. Temperature must also be controlled because of its effect on enzyme activity.`,
+C:`Option C: Incorrect. pH must also be controlled for the same enzyme-related reason.`,
+D:`Option D: Correct. All three factors influence photosynthesis and must be kept constant so that any change observed can be attributed to the CO₂ concentration alone.`}},
+
+28:{ans:"A",pct:0.85,
+concept:`Leaf structure and adaptation. J labels the outermost layer on the upper surface, the cuticle: a waxy, non-cellular layer secreted by the upper epidermis. Being waterproof, it forms a barrier to the evaporation of water from the leaf surface, which is important because the leaf has a large surface area exposed to air.`,
+opts:{
+A:`Option A: Correct. The waxy cuticle is impermeable to water and so greatly reduces evaporation from the leaf surface, restricting water loss to the controlled route through the stomata.`,
+B:`Option B: Incorrect. The cuticle is transparent, which does allow light to reach the palisade layer, but transparency is a property that follows from being thin and waxy. Its major function, and the reason it is thickest on the exposed upper surface, is waterproofing.`,
+C:`Option C: Incorrect. Protection against pathogens is a secondary role of the epidermis and cuticle. The question asks for the major function, which is the prevention of excessive water loss.`,
+D:`Option D: Incorrect. The cuticle contains no chloroplasts and carries out no photosynthesis. If anything, a very thick cuticle would slightly reduce the light reaching the palisade mesophyll.`}},
+
+29:{ans:"A",pct:0.61,
+concept:`Transpiration and the pathway of water through the leaf. K labels the vascular bundle (xylem and phloem) in the midrib. Xylem delivers water and dissolved minerals from the roots to the leaf. Water then moves through the mesophyll, evaporates from the wet cell walls into the air spaces, and diffuses out through the stomata as water vapour. Minerals, however, are retained and used by the leaf cells; they are not lost through the stomata.`,
+opts:{
+A:`Option A: Correct. Water travels up the xylem at K, passes into the mesophyll cells, evaporates from their surfaces into the intercellular air spaces, and diffuses out through the open stomata down a water potential gradient. This is transpiration.`,
+B:`Option B: Incorrect. Oxygen does leave through the stomata in the daytime as a product of photosynthesis, but it is produced in the chloroplasts of the mesophyll cells, not transported from the vascular bundle K.`,
+C:`Option C: Incorrect. Minerals such as nitrate and magnesium arrive in the xylem in solution but are absorbed and assimilated by the leaf cells to make amino acids and chlorophyll. They cannot evaporate or diffuse out as a gas.`,
+D:`Option D: Incorrect. In the daytime, net movement of carbon dioxide is into the leaf, because photosynthesis in the mesophyll consumes CO₂ faster than respiration produces it, creating an inward diffusion gradient. It also does not originate from K.`}},
+
+30:{ans:"C",pct:0.91,
+concept:`Measuring transpiration rate with a potometer. As water is lost by transpiration from the leaves, the transpiration pull draws water up the shoot, and the air bubble moves along the capillary tube. Because each treatment ran for the same three hours, the distance moved (initial reading minus final reading) is directly proportional to the transpiration rate. Transpiration is fastest in high light (stomata open widely) and low humidity (steep water potential gradient between the air spaces and the outside air).`,
+opts:{
+A:`Option A: Incorrect. Treatment 1 gives 6.6 cm. Low humidity favours transpiration, but the low light intensity keeps many stomata partly closed, so the rate is below that of Treatment 3.`,
+B:`Option B: Incorrect. Treatment 2 gives only 2.5 cm, the lowest of all. Low light means narrow stomatal apertures and high humidity means a shallow water potential gradient, so both conditions suppress transpiration.`,
+C:`Option C: Correct. Treatment 3 gives the largest movement, 9.4 cm. High light intensity causes the guard cells to become turgid and open the stomata widely, while low humidity maintains a steep diffusion gradient for water vapour out of the leaf. Both factors together maximise the rate.`,
+D:`Option D: Incorrect. Treatment 4 gives 3.4 cm. Although high light opens the stomata, the high humidity outside the leaf reduces the water potential gradient, so diffusion of water vapour out of the stomata is slow.`}},
+
+31:{ans:"D",pct:0.33,
+concept:`Comparing the effects of light intensity and humidity on transpiration. Transpiration is the loss of water vapour from the leaves, mainly through the stomata. Light intensity acts indirectly by controlling stomatal aperture: bright light makes guard cells turgid so the stomata open widely, giving a larger diffusion pathway. Humidity acts on the water potential gradient between the saturated air spaces inside the leaf and the air outside: high external humidity flattens this gradient, so less water vapour diffuses out. To answer, calculate the distance the air bubble travelled in each treatment (initial − final over the same three hours) and compare the drop caused by each single change. Distances moved: Treatment 1 = 14 − 7.4 = 6.6 cm; Treatment 2 = 15 − 12.5 = 2.5 cm; Treatment 3 = 15 − 5.6 = 9.4 cm; Treatment 4 = 14 − 10.6 = 3.4 cm.`,
+opts:{
+A:`Option A: Incorrect. This compares Treatment 3 with Treatment 1 (humidity kept low, light lowered): 9.4 cm falls to 6.6 cm, a reduction of only 2.8 cm. Fewer stomata open fully in dim light, but the steep water potential gradient from low humidity keeps the rate relatively high, so the reduction is small.`,
+B:`Option B: Incorrect. This compares Treatment 4 with Treatment 2 (humidity kept high, light lowered): 3.4 cm falls to 2.5 cm, a reduction of just 0.9 cm, the smallest of all. The rate is already suppressed by the shallow diffusion gradient, so closing the stomata further has little additional effect.`,
+C:`Option C: Incorrect. This compares Treatment 1 with Treatment 2 (light kept low, humidity raised): 6.6 cm falls to 2.5 cm, a reduction of 4.1 cm. This is substantial, but not the greatest, because with the stomata already narrow in dim light the maximum possible rate is limited to begin with.`,
+D:`Option D: Correct. This compares Treatment 3 with Treatment 4 (light kept high, humidity raised): 9.4 cm falls to 3.4 cm, a reduction of 6.0 cm, the largest of the four. In bright light the stomata are wide open, so transpiration starts from its maximum rate. Raising the humidity then reduces the water potential gradient between the leaf air spaces and the surrounding air, sharply cutting the outward diffusion of water vapour and producing the greatest fall.`}},
+
+32:{ans:"D",pct:0.64,
+concept:`Development of fruit and seed after fertilisation. In flowering plants, the male gamete from the pollen tube fuses with the ovum (egg cell) inside the ovule. The resulting zygote divides to form the embryo, and the whole ovule develops into the seed. The ovary wall develops into the pericarp (the fruit wall and flesh). So structures derived from the ovum are found only inside a seed.`,
+opts:{
+A:`Option A: Incorrect. P is the outermost layer of the fruit wall, developed from the outer part of the ovary wall. It is maternal tissue and has nothing to do with the ovum.`,
+B:`Option B: Incorrect. Q labels the juicy sacs making up the flesh, which also develop from the ovary wall (the inner pericarp). Again this is maternal tissue.`,
+C:`Option C: Incorrect. R lies within the flesh but is not the mature seed containing the embryo, so it is not the structure that developed from the fertilised ovum.`,
+D:`Option D: Correct. S is the seed. The ovum was fertilised to form a zygote, which developed into the embryo within the seed, so S is the structure derived from the ovum.`}},
+
+33:{ans:"C",pct:0.33,
+concept:`Genetic composition of fruit versus seed tissues. All the tissues of the fruit wall develop from the ovary wall of the parent plant by mitosis, so they are genetically identical to the parent plant and to each other. The seed, in contrast, contains an embryo formed by fertilisation, so it combines alleles from both the male and female parents. Each seed also results from a separate fertilisation event with a different pollen grain, so different seeds are not genetically identical either. This was one of the hardest questions on the paper, because students tend to assume every structure inside the fruit is seed tissue. Options Biological Explanation: Statement (1): Correct. P and Q are both parts of the pericarp derived from the ovary wall by mitotic division of the parent's cells, so they carry the same genetic composition. Statement (2): Correct. Q and R are both maternal tissues of the fruit produced by mitosis from the parent plant, so they too are genetically identical. Statement (3): Incorrect. S is the seed, containing an embryo formed by the fusion of male and female gametes. Its genetic composition is a new combination and differs from the maternal tissue at R.`,
+opts:{
+A:`Option A: Incorrect. It leaves out the equally valid pairing in (2).`,
+B:`Option B: Incorrect. R and S differ, because only S contains genetic material from the male parent.`,
+C:`Option C: Correct. Both (1) and (2) involve only maternal fruit tissues produced by mitosis, so both pairs are genetically identical.`,
+D:`Option D: Incorrect. It wrongly accepts (3), ignoring that fertilisation introduces paternal alleles into the seed.`}},
+
+34:{ans:"C",pct:0.63,
+concept:`Adaptations of fruits for seed dispersal. A succulent fruit stores sugars and water in the flesh, making it brightly coloured, sweet and attractive to animals. The animal eats the fruit and the tough-coated seeds pass out undamaged in the faeces some distance away. Dispersal reduces competition between the parent plant and the offspring for light, water and minerals, and allows colonisation of new habitats.`,
+opts:{
+A:`Option A: Incorrect. The juicy flesh does give some physical cushioning, but this is incidental. Protection is not the reason a plant invests energy in producing sweet, brightly coloured flesh.`,
+B:`Option B: Incorrect. The nutrients for germination are stored in the cotyledons or endosperm inside the seed itself, not in the fruit flesh. The seed is separated from the flesh before germination.`,
+C:`Option C: Correct. The sugary, juicy sacs at Q attract animals to eat the fruit, so the seeds are carried away and deposited elsewhere. This achieves dispersal by animals.`,
+D:`Option D: Incorrect. Surviving adverse conditions is a function of seed dormancy, involving the tough testa and the low water content of the seed. The fleshy fruit actually decays rapidly rather than aiding survival.`}},
+
+35:{ans:"B",pct:0.59,
+concept:`Osmosis and the effect of surface area. Dialysis tubing is a partially permeable membrane: water can pass through but sucrose molecules are too large. The 2% sucrose solution inside has a higher water potential (less concentrated) than the 10% solution outside, so there is a net movement of water out of the tubing by osmosis. The liquid level in the tube therefore falls. The longer tubing in Set-up 2 has a larger surface area for osmosis, so the rate of water loss is faster, though both eventually level off as the concentration difference is reduced and the two solutions approach equilibrium.`,
+opts:{
+A:`Option A: Incorrect. The direction of change is right, but Set-up 2 is shown falling more slowly than Set-up 1. The longer tubing has a greater membrane surface area, so it must lose water faster.`,
+B:`Option B: Correct. Both levels fall, since water moves out of the tubing down the water potential gradient. Set-up 2 falls more steeply because its greater surface area allows more water molecules to cross per unit time, and both curves flatten as equilibrium is approached.`,
+C:`Option C: Incorrect. It shows both levels rising, which would require water to enter the tubing. This only happens if the surrounding solution is more dilute than the contents, the opposite of the conditions here.`,
+D:`Option D: Incorrect. Same fundamental error as C. Water cannot move from the 10% solution into the 2% solution, since osmosis moves water from higher to lower water potential.`}},
+
+36:{ans:"A",pct:0.63,
+concept:`Effect of temperature on the rate of osmosis. Osmosis is a passive process driven by the random kinetic movement of water molecules. Raising the temperature increases the kinetic energy of the water molecules, so they diffuse across the partially permeable membrane faster, and the level falls more steeply at 40°C. However, temperature does not change the concentration gradient itself, so the final equilibrium position is the same at both temperatures. Only the rate differs, not the end point.`,
+opts:{
+A:`Option A: Correct. The 40°C curve falls more steeply, showing the faster rate due to greater molecular kinetic energy, but both curves flatten out at the same final level, because the same concentration difference determines the equilibrium point.`,
+B:`Option B: Incorrect. It shows the two curves settling at different final levels, with 40°C ending lower. Temperature affects only how quickly equilibrium is reached, not the amount of net water movement needed to reach it.`,
+C:`Option C: Incorrect. It shows the levels rising, which contradicts the direction of osmosis. Water must leave the 2% solution and enter the more concentrated 10% solution outside.`,
+D:`Option D: Incorrect. It shows rising levels and also different final levels, so it is wrong on both the direction of water movement and the effect of temperature on the equilibrium position.`}}
+},
+
+/* ==================== 2023 ==================== */
+"2023": {
+1:{ans:"C",pct:0.56,
+concept:`Prokaryotes lack membrane-bound organelles and a true nucleus, but possess DNA as a circular chromosome. R is chromatin (DNA with protein) inside the nucleus, which is universal to all cells.`,
+opts:{
+A:`Option A: P is the nucleolus, found only in eukaryotes with a true nucleus`,
+B:`Option B: Q is a mitochondrion, a membrane-bound organelle absent in prokaryotes`,
+C:`Option C (Correct): R is chromatin, DNA universal to all cells including prokaryotes`,
+D:`Option D: S is rough ER, part of endomembrane system absent in prokaryotes`}},
+
+2:{ans:"D",pct:0.6,
+concept:`Protein synthesis via secretory pathway. Ribosomes on rough ER join labelled amino acids into polypeptides by peptide bonds during translation.`,
+opts:{
+A:`Option A: Nucleolus makes rRNA from nucleotides, not amino acids`,
+B:`Option B: Mitochondria synthesise ATP; amino acids are not their substrate`,
+C:`Option C: Chromatin/DNA is built from nucleotides; transcription does not incorporate amino acids`,
+D:`Option D (Correct): Rough ER with ribosomes joins labelled amino acids into polypeptides first`}},
+
+3:{ans:"A",pct:0.56,
+concept:`Only protein secretions released into the duodenum carry the label. Protease is a protein enzyme secreted in pancreatic juice.`,
+opts:{
+A:`Option A (Correct): Protease is a protein made from labelled amino acids and secreted into duodenum`,
+B:`Option B: Glucagon is a protein but secreted into blood, not gut lumen`,
+C:`Option C: Sodium hydrogencarbonate is inorganic salt, not made from amino acids`,
+D:`Option D: Excludes protease and includes both incorrect items`}},
+
+4:{ans:"A",pct:0.42,
+concept:`Membrane proteins include channel/carrier proteins for transport and receptor proteins for signalling. Processes away from membranes don't need them.`,
+opts:{
+A:`Option A (Correct): Transcription occurs in nucleoplasm; RNA polymerase is a soluble enzyme, not membrane protein`,
+B:`Option B: Root cells absorb minerals by active transport requiring carrier proteins in plasma membrane`,
+C:`Option C: Carbohydrate digestion involves membrane-bound enzymes and glucose carrier proteins`,
+D:`Option D: Synaptic transmission needs voltage-gated Ca2+ channels and neurotransmitter receptors`}},
+
+5:{ans:"C",pct:0.48,
+concept:`Interphase occupies most of the cell cycle. Large sector III is interphase; thin slices I and II represent the short M phase and cytokinesis.`,
+opts:{
+A:`Option A: Cytokinesis occurs at end of cycle (stage II), not stage I`,
+B:`Option B: Sister chromatids are pulled apart in anaphase (stage I); by stage II nuclear division is finished`,
+C:`Option C (Correct): During interphase the cell grows, synthesises proteins, duplicates organelles and DNA`,
+D:`Option D: Chromatin condenses in prophase of mitosis (stage I), not during interphase`}},
+
+6:{ans:"D",pct:0.42,
+concept:`DNA doubles from 1 to 2 during S phase in interphase, stays at 2 through mitosis, then halves to 1 after cytokinesis.`,
+opts:{
+A:`Option A: Wrong stage order; shows doubling occurring during mitosis which is impossible`,
+B:`Option B: Wrong stage order and replication happening in mitosis rather than interphase`,
+C:`Option C: Order III, I, II is right but DNA falls at wrong point leaving mitosis with only 1 unit`,
+D:`Option D (Correct): DNA rises 1 to 2 in interphase, stays at 2 through mitosis, drops to 1 at end of cytokinesis`}},
+
+7:{ans:"B",pct:0.68,
+concept:`Anaerobic respiration in yeast (alcoholic fermentation). Boiled glucose solution expels O₂ and oil seals surface to exclude oxygen.`,
+opts:{
+A:`Option A: CO₂ and water are products of aerobic respiration, not alcoholic fermentation`,
+B:`Option B (Correct): Glucose to CO₂ and ethanol is alcoholic fermentation requiring no oxygen`,
+C:`Option C: This is aerobic respiration; oxygen was deliberately removed`,
+D:`Option D: Ethanol only produced without oxygen; cannot appear opposite oxygen in same equation`}},
+
+8:{ans:"A",pct:0.67,
+concept:`Experimental design accuracy improves precision of measurement. Gas jar has no graduations; measuring cylinder has fine scale for accurate reading.`,
+opts:{
+A:`Option A (Correct): Measuring cylinder allows accurate reading of CO₂ volume collected`,
+B:`Option B: Larger flask increases air space but doesn't improve volume measurement accuracy`,
+C:`Option C: Delivery tube diameter affects gas speed, not measurement accuracy`,
+D:`Option D: Increasing glucose changes total gas produced, not measurement accuracy`}},
+
+9:{ans:"B",pct:0.44,
+concept:`Alveolar air is depleted in O₂ and enriched in CO₂ due to gas exchange. Typical alveolar values are about 16% O₂ and 4% CO₂.`,
+opts:{
+A:`Option A: Oxygen correct but 0.04% CO₂ is atmospheric level, not alveolar`,
+B:`Option B (Correct): 16% O₂ and 4% CO₂ reflect air in alveoli after gas exchange with blood`,
+C:`Option C: These are atmospheric/inhaled air values; alveolar air must differ due to continuous exchange`,
+D:`Option D: CO₂ reasonable but 21% O₂ means no oxygen absorbed, contradicting continuous diffusion`}},
+
+10:{ans:"B",pct:0.82,
+concept:`Shade-adapted plants reach max photosynthesis rate at low light intensity; sun-adapted plants need higher light but reach higher rates.`,
+opts:{
+A:`Option A: Graph shows photosynthetic rate vs light only; cannot deduce morphological height`,
+B:`Option B (Correct): Z saturates at lowest light intensity making it most competitive in shade`,
+C:`Option C: X plateaus above Y in bright conditions; Z outperforms both in dim light`,
+D:`Option D: Graph shows light response only; plateau set by other limiting factors, not Z's presence`}},
+
+11:{ans:"B",pct:0.54,
+concept:`ATP produced in glycolysis and light-dependent photosynthesis reactions. Calvin cycle uses ATP, not produces it.`,
+opts:{
+A:`Option A: Includes Calvin cycle which uses ATP rather than producing it`,
+B:`Option B (Correct): Glycolysis produces 2 ATP; photochemical reactions produce ATP on thylakoid membranes`,
+C:`Option C: Photochemical reactions make ATP but Calvin cycle consumes it`,
+D:`Option D: Calvin cycle is ATP consumer, not producer`}},
+
+12:{ans:"D",pct:0.69,
+concept:`Young dicot stem has vascular bundles arranged in ring near periphery with central pith. Root has vascular tissue in centre.`,
+opts:{
+A:`Option A: No root hairs visible; outer layer is cutinised epidermis`,
+B:`Option B: Thin-walled parenchyma at centre (pith) is stem feature; root centre has xylem`,
+C:`Option C: Identification correct but cuticle is thin and not clearest evidence`,
+D:`Option D (Correct): Discrete vascular bundles in ring with central pith is classic dicot stem arrangement`}},
+
+13:{ans:"D",pct:0.21,
+concept:`Total magnification = eyepiece × objective. Image ratio equals magnification ratio. High-power shows about 1/4 of section, so 4× increase.`,
+opts:{
+A:`Option A: 40× to 100× is only 2.5× increase, too small`,
+B:`Option B: 40× to 250× is 6.25×, too large; 25× objectives not standard pairing`,
+C:`Option C: 40× to 400× is 10×; only tiny sliver would be visible`,
+D:`Option D (Correct): 100× (10×10) to 400× (10×40) is 4× increase matching observed field fraction`}},
+
+14:{ans:"A",pct:0.66,
+concept:`Xylem transports water upward via dead hollow lignified vessels. Phloem transports organic food via living sieve tubes. Xylem inner, phloem outer.`,
+opts:{
+A:`Option A (Correct): P is xylem on inner side with large lumens and thick lignified walls for water transport`,
+B:`Option B: Q is phloem that translocates photosynthesis products, not water`,
+C:`Option C: R is cortex packing tissue; water passes through but not main transport tissue`,
+D:`Option D: S is epidermis with cuticle for protection and reducing water loss`}},
+
+15:{ans:"B",pct:0.6,
+concept:`Independent variable is what the experimenter deliberately changes. Here temperature and fruit type are systematically varied.`,
+opts:{
+A:`Option A: Only counts temperature, ignoring fruit type variation`,
+B:`Option B (Correct): Two independent variables - temperature (50/60/70°C) and fruit type (4 types)`,
+C:`Option C: 3 is number of temperature levels, not number of variables`,
+D:`Option D: 4 is number of fruits tested, a count of levels not variables`}},
+
+16:{ans:"B",pct:0.61,
+concept:`Dependent variable must be measurable quantitatively to compare protein digestion fairly. Both time to disappear and weight change are quantitative.`,
+opts:{
+A:`Option A: Includes "change in shape" which is qualitative and subjective`,
+B:`Option B (Correct): Time for cubes to disappear and change in weight are both quantitative measures`,
+C:`Option C: Change in weight valid but change in shape is not reliable quantitative measurement`,
+D:`Option D: Rejected because change in shape fails quantitative/objective requirement`}},
+
+17:{ans:"D",pct:0.57,
+concept:`Assumption: taken as true without being tested but necessary for conclusion. Amy tests egg white as substitute for steak muscle protein.`,
+opts:{
+A:`Option A: Not assumption but hypothesis being investigated`,
+B:`Option B: Actually being tested by heating juice to different temperatures`,
+C:`Option C: Being tested; if extraction destroyed activity no digestion would occur`,
+D:`Option D (Correct): Must assume protease acts on albumin and muscle protein comparably; enzymes show specificity`}},
+
+18:{ans:"A",pct:0.54,
+concept:`Small intestine adaptations for absorption: great length, folded wall with villi and microvilli increasing surface area, thin epithelium, dense capillary network.`,
+opts:{
+A:`Option A (Correct): Length and folds/villi/microvilli directly increase absorption rate and area`,
+B:`Option B: Includes enzyme secretion which relates to digestion not absorption itself`,
+C:`Option C: Omits length and wrongly credits enzyme secretion`,
+D:`Option D: Enzyme secretion not feature making it major absorption site; stomach also secretes enzymes`}},
+
+19:{ans:"B",pct:0.51,
+concept:`Eustachian tube connects middle ear to pharynx and equalises air pressure on both sides of eardrum for free vibration.`,
+opts:{
+A:`Option A: Cochlea in inner ear; not directly affected by middle ear pressure`,
+B:`Option B (Correct): Blocked tube prevents pressure equalisation, restricting eardrum vibration causing muffled hearing`,
+C:`Option C: Ear bones affected indirectly, not directly, by eardrum failure`,
+D:`Option D: Oval window receives vibrations from ear bones; any effect is secondary`}},
+
+20:{ans:"A",pct:0.42,
+concept:`Reflex uses short arc bypassing cerebrum with fewer synapses, so rapid protective response without conscious decision making.`,
+opts:{
+A:`Option A (Correct): Impulse doesn't travel to cerebrum; shorter pathway with fewer synapses means faster response`,
+B:`Option B: Conduction speed along neurone is fixed property; not faster just because action is reflex`,
+C:`Option C: Being inborn describes acquisition not why reflex is fast; innate not automatically quicker`,
+D:`Option D: Both statements selected are invalid as speed explanations`}},
+
+21:{ans:"A",pct:0.72,
+concept:`Nitrogen cycle: decomposers break down organic nitrogen into ammonium; nitrifying bacteria oxidise ammonium to nitrate for plant absorption.`,
+opts:{
+A:`Option A (Correct): Decomposition releases ammonium; nitrification converts to nitrate for plant uptake`,
+B:`Option B: Fixation converts atmospheric N2; kitchen waste has organic nitrogen so fixation not needed`,
+C:`Option C: Denitrification converts nitrate to N2, removing nitrogen and reducing fertiliser value`,
+D:`Option D: Both processes inappropriate here`}},
+
+22:{ans:"D",pct:0.49,
+concept:`Trophic levels assigned by what organism eats. Primary consumer is herbivore; secondary consumer eats primary consumer.`,
+opts:{
+A:`Option A: Virus is not consumer; non-cellular obligate parasite that replicates inside host`,
+B:`Option B: Caterpillar is herbivore so primary consumer; only photosynthesisers are producers`,
+C:`Option C: Adult wasps don't feed on caterpillar; only lay eggs. Typically feed on nectar`,
+D:`Option D (Correct): Caterpillar primary consumer; wasp larva feeds on tissues so is secondary consumer (parasitism)`}},
+
+23:{ans:"B",pct:0.53,
+concept:`Mutualism: both partners benefit. Parasitism: one benefits at expense of other. Commensalism: one benefits, other unaffected.`,
+opts:{
+A:`Option A: Virus doesn't harm wasp; DNA integrated and transmitted without disease`,
+B:`Option B (Correct): Virus gains replication and transmission; wasp gains immune suppression for egg survival (mutual benefit)`,
+C:`Option C: Wasp and virus don't compete; virus depends on wasp`,
+D:`Option D: One-way benefit is commensalism; wasp clearly gains survival advantage`}},
+
+24:{ans:"D",pct:0.32,
+concept:`Continuous variation: normal bell-shaped distribution with many intermediates indicates polygenic control and environmental influence. Genetic variety from independent assortment.`,
+opts:{
+A:`Option A: Correct on environment and polygenes but incomplete; omits independent assortment`,
+B:`Option B: Omits environmental influence; continuous distribution indicates polygenic not single gene`,
+C:`Option C: Omits environmental factors; polygenic and independent assortment both valid`,
+D:`Option D (Correct): All three apply - environmental influence, polygenic inheritance, and independent assortment variation`}},
+
+25:{ans:"C",pct:0.47,
+concept:`Natural selection requires selection pressure on existing variation. Individuals with favoured variant survive and reproduce more, shifting population mean.`,
+opts:{
+A:`Option A: Nectar production not measured trait; more nectar doesn't explain longer petal frequency`,
+B:`Option B: Favourable climate increases overall growth but not differential advantage to long petals`,
+C:`Option C (Correct): Insects preferring longer petals pollinate them more, passing alleles on, shifting distribution`,
+D:`Option D: Mutations random and rare at low frequency; too short timescale for mutation alone`}},
+
+26:{ans:"A",pct:0.81,
+concept:`DNA fingerprinting: bands inherited from parents. Band in affected individuals absent in unaffected acts as disease marker.`,
+opts:{
+A:`Option A (Correct): Member 4 shares distinctive band found in affected members 2 and 6; inherited disease allele`,
+B:`Option B: Member 3 lacks diagnostic band common to members 2 and 6`,
+C:`Option C: Member 1 lacks band shared by affected members 2 and 6`,
+D:`Option D: Member 5 doesn't show marker band; not predicted to develop disease`}},
+
+27:{ans:"B",pct:0.39,
+concept:`Codon is triplet of bases specifying one amino acid. Read AUG/GCU/AAC/UAU/AAC/GCU: six codons total but four different ones (GCU and AAC each occur twice).`,
+opts:{
+A:`Option A: Three too few; AUG, GCU, AAC and UAU are distinct`,
+B:`Option B (Correct): Four different codons (AUG, GCU, AAC, UAU) even though six total; GCU and AAC repeat`,
+C:`Option C: Five would require extra unique triplet; no fifth sequence exists`,
+D:`Option D: Six is total number of codons, not different ones`}},
+
+28:{ans:"A",pct:0.54,
+concept:`mRNA transcribed in nucleus moves to cytoplasm for translation. mRNA sequence matches coding strand with U for T; template strand is complement.`,
+opts:{
+A:`Option A (Correct): mRNA exists in nucleus after transcription and in cytoplasm where it binds ribosomes`,
+B:`Option B: Given sequence is complement (template strand); includes wrongly identified template`,
+C:`Option C: Same error with statement 3 and wrongly excludes nucleus where mRNA synthesised`,
+D:`Option D: Cannot be right because statement 3 misidentifies template as coding strand`}},
+
+29:{ans:"A",pct:0.77,
+concept:`More similar base sequences in homologous genes means more recent divergence from common ancestor. Fewer differences = closer phylogenetic relationship.`,
+opts:{
+A:`Option A (Correct): L-J=32, L-K=50, L-N=77, L-M=119; ranked L, J, K, N, M closest to most distant`,
+B:`Option B: Places M second but M has largest differences (119), most distantly related`,
+C:`Option C: Reverse order, treating greatest differences as closest relationship`,
+D:`Option D: N (77) placed before K (50); K more closely related than N`}},
+
+30:{ans:"C",pct:0.64,
+concept:`Genetic code is degenerate - base changes may be silent mutations. Enzyme function depends on active site shape; substitutions away from site leave activity unchanged.`,
+opts:{
+A:`Option A: Includes equal length claim which doesn't guarantee function`,
+B:`Option B: Omits degeneracy; single gene gives discrete classes not continuous distribution`,
+C:`Option C (Correct): Degeneracy of code allows same amino acid; substitutions outside active site maintain function`,
+D:`Option D: Statement 1 not legitimate so all three cannot be accepted`}},
+
+31:{ans:"C",pct:0.63,
+concept:`Ion movement: diffusion down gradient (high to low) without energy; active transport against gradient using carrier proteins and ATP.`,
+opts:{
+A:`Option A: X lower inside; diffusion moves it inward not outward`,
+B:`Option B: X at lower concentration inside so diffusion suffices; active transport not required`,
+C:`Option C (Correct): Y far more concentrated inside; maintaining gradient requires active transport against gradient`,
+D:`Option D: Moving Y outward would reduce internal concentration and destroy pattern`}},
+
+32:{ans:"B",pct:0.75,
+concept:`Type 1 diabetes: β cells destroyed, little/no insulin produced. Type 2: insulin produced but target cells poorly respond (insulin resistance).`,
+opts:{
+A:`Option A: Type 1 correct but explanation (high glucose) is symptom shared by both types`,
+B:`Option B (Correct): Insulin level flat and low despite high blood glucose indicates destroyed/non-functional β cells (type 1)`,
+C:`Option C: Sharp glucose rise occurs in any diabetic; not diagnostic of type 2`,
+D:`Option D: Liver glycogen failure is consequence of lack insulin signalling; type 2 has normal/elevated insulin`}},
+
+33:{ans:"C",pct:0.69,
+concept:`Without effective insulin, cells consume glucose by respiration; excess exceeding kidney reabsorption capacity is lost in urine (glycosuria).`,
+opts:{
+A:`Option A: Loss through urine genuine but not only route; respiration continues consuming glucose`,
+B:`Option B: Includes glucagon which raises glucose; opposite effect, cannot explain fall`,
+C:`Option C (Correct): Cells oxidise glucose for ATP; kidney cannot reabsorb all above threshold so glucose excreted`,
+D:`Option D: Statement 1 contradicts insulin-glucagon antagonism so all three incorrect`}},
+
+34:{ans:"D",pct:0.94,
+concept:`Amniotic fluid acts as shock absorber, allows foetus movement, prevents adhesion, maintains constant temperature and moisture.`,
+opts:{
+A:`Option A: Fluid secreted by amnion not uterus wall`,
+B:`Option B: Antibodies reach foetus across placenta, not amniotic fluid`,
+C:`Option C: Nutrient and oxygen exchange occurs at placenta, not in amniotic fluid`,
+D:`Option D (Correct): Fluid cushions foetus against shock and maintains constant temperature and moisture`}},
+
+35:{ans:"C",pct:0.64,
+concept:`Umbilical artery carries deoxygenated low-nutrient blood to placenta. Umbilical vein carries oxygenated glucose-rich blood to foetus.`,
+opts:{
+A:`Option A: Veins generally have larger lumen/thinner walls than arteries; statement reversed`,
+B:`Option B: Foetal situation reversed; artery carries deoxygenated to placenta, vein carries oxygenated to foetus`,
+C:`Option C (Correct): Artery low in glucose (used by tissues); vein high in glucose (diffused across placenta)`,
+D:`Option D: Directions reversed; artery carries toward placenta, vein toward foetal heart`}},
+
+36:{ans:"C",pct:0.7,
+concept:`Vaccination stimulates antibodies and memory lymphocytes. Secondary response: memory cells recognise antigen, divide rapidly, antibodies produced faster and higher.`,
+opts:{
+A:`Option A: Antibody level doesn't rise instantly; even secondary response needs lag for cell activation`,
+B:`Option B: Long lag and low peak typical of primary response in unvaccinated person`,
+C:`Option C (Correct): Short lag, rapid rise to high peak, gradual decline is classic secondary response from memory cells`,
+D:`Option D: Two peaks from single exposure and permanent high plateau don't occur; antibodies are proteins broken down`}}
+},
+
+/* ==================== 2024 ==================== */
+"2024": {
+1:{ans:"C",pct:0.48,
+concept:`Roles of mineral nutrients (nitrogen, phosphorus) in plants, and the elemental composition of biological molecules.`,
+opts:{
+A:`Option A: Incorrect as part of the answer. Cell walls are made mainly of cellulose, a polysaccharide containing only C, H and O. No N or P is required, so nitrogen/phosphorus fertilisers are not needed for cell wall synthesis.`,
+B:`Option B: Incorrect. It includes cell walls (see A) while omitting chlorophyll, which does require nitrogen.`,
+C:`Option C: Correct. Chlorophyll contains nitrogen (in the porphyrin ring, with Mg at the centre), so N is essential. Cell membranes are built from phospholipids, whose phosphate head group requires phosphorus, and membrane proteins require nitrogen (amino groups of amino acids). Hence (2) and (3) only.`,
+D:`Option D: Incorrect because it wrongly includes (1), cell walls.`}},
+
+2:{ans:"A",pct:0.28,
+concept:`Complementary base pairing in double-stranded nucleic acids (Chargaff's rule), and how the presence of thymine vs uracil distinguishes DNA from RNA.`,
+opts:{
+A:`Option A: Correct. In a double-stranded molecule A = T and G = C. Here A (1966) ≠ T (1749) and G (2343) ≠ C (2368), so the base pairing rule is not obeyed → the molecule must be single-stranded. Thymine is present (and no uracil is mentioned), so the nucleic acid is DNA, whose pentose sugar is deoxyribose.`,
+B:`Option B: Incorrect. Ribose is the pentose of RNA, but RNA uses uracil instead of thymine. The presence of T rules out ribose.`,
+C:`Option C: Incorrect. Deoxyribose is right, but the unequal A:T and G:C ratios show the molecule cannot be double-stranded.`,
+D:`Option D: Incorrect on both counts: not double-stranded, and thymine indicates DNA (deoxyribose), not ribose.`}},
+
+3:{ans:"A",pct:0.57,
+concept:`The fluid mosaic model — phospholipids and proteins are not fixed but can move laterally within the plane of the membrane.`,
+opts:{
+A:`Option A: Correct. Initially the red-labelled human proteins and green-labelled mouse proteins occupy separate halves of the fused cell; after 40 minutes they are intermixed. Only lateral diffusion of proteins within the fluid phospholipid bilayer can explain this, i.e. the membrane is fluid in nature. Statement (1) alone is sufficient.`,
+B:`Option B: Incorrect. Differential (selective) permeability describes which substances can cross the membrane. The surface proteins are moving *within* the membrane, not passing through it, so permeability is irrelevant here.`,
+C:`Option C: Incorrect. Asymmetry refers to the two phospholipid layers/faces having different components (e.g. glycoproteins on the outer face). The experiment shows lateral mixing, not anything about inner vs outer face differences, and asymmetry would not explain the change.`,
+D:`Option D: Incorrect since neither (2) nor (3) explains the observed redistribution.`}},
+
+4:{ans:"B",pct:0.41,
+concept:`DNA replication in interphase precedes meiosis; each chromosome entering meiosis I consists of two sister chromatids, so DNA content is doubled (4C) relative to a resting somatic cell (2C).`,
+opts:{
+A:`Option A: Incorrect. ¼β would be the DNA content of a gamete (1C) after meiosis II, i.e. half of a somatic cell, not the somatic cell itself.`,
+B:`Option B: Correct. The cell shown is at an early stage of meiosis, so its DNA has already been replicated → its content β corresponds to 4C. A non-dividing somatic cell (G₁, unreplicated diploid) contains 2C = ½β.`,
+C:`Option C: Incorrect. β would only equal the somatic value if no replication had occurred, but the visible sister chromatids show replication has taken place.`,
+D:`Option D: Incorrect. 2β would be double the replicated amount (8C), which does not occur in a normal somatic cell.`}},
+
+5:{ans:"A",pct:0.25,
+concept:`Independent assortment of homologous pairs in meiosis I — each daughter cell receives one chromosome from each homologous pair, and the maternal/paternal (shaded/unshaded) combinations are random. Chromosome number is halved but each type must be represented once.`,
+opts:{
+A:`Option A: Correct. Diagrams (1) and (2) each contain three chromosomes, one from each of the three homologous pairs, with different but valid shaded/unshaded combinations produced by independent assortment. Hence (1) and (2) only.`,
+B:`Option B: Incorrect because it includes (3).`,
+C:`Option C: Incorrect because it includes (3).`,
+D:`Option D: Incorrect. Diagram (3) does not show one member of each homologous pair in a valid haploid set — the combination shown could not arise from normal segregation of the three pairs in the parent cell, so it is not a possible daughter cell.`}},
+
+6:{ans:"C",pct:0.41,
+concept:`Cytological basis of Mendel's laws — the law of segregation corresponds to separation of alleles of one gene, whereas the law of independent assortment corresponds to the random orientation and separation of *different* homologous pairs at metaphase/anaphase I.`,
+opts:{
+A:`Option A: Incorrect law. The law of segregation only explains the separation of a single homologous pair; it cannot account for the different *combinations* of three different chromosome types seen in Q5.`,
+B:`Option B: Incorrect on both counts. Wrong law, and in meiosis II sister chromatids (identical copies) separate, which does not generate new combinations of homologous chromosomes.`,
+C:`Option C: Correct. The varied combinations arise because each of the three homologous pairs orients independently on the equator and separates independently during the first meiotic division — the cytological basis of the law of independent assortment.`,
+D:`Option D: Incorrect stage. Independent assortment of homologous pairs happens in meiosis I, not meiosis II, since homologous pairs are already separated before meiosis II begins.`}},
+
+7:{ans:"D",pct:0.78,
+concept:`The two stages of photosynthesis — photochemical (light-dependent) reactions in the grana/thylakoids using light energy to photolyse water, produce O₂, ATP and NADPH; the Calvin cycle in the stroma using ATP and NADPH to fix CO₂.`,
+opts:{
+A:`Option A: Half wrong. Photochemical reactions do produce oxygen (from photolysis of water), but the Calvin cycle does not produce water — it fixes CO₂ into carbohydrate; water is a *reactant* in the light reactions.`,
+B:`Option B: Incorrect. CO₂ is required by the Calvin cycle, not the photochemical reactions. NADPH is *used* by the Calvin cycle, so that half is acceptable, but the first half fails.`,
+C:`Option C: Reversed. Photochemical reactions occur in the grana (thylakoid membranes) and the Calvin cycle occurs in the stroma, the opposite of what is stated.`,
+D:`Option D: Correct. Light is the energy source that drives the photochemical reactions, while the Calvin cycle is driven by the chemical energy of ATP (together with reducing power from NADPH) generated in the light reactions.`}},
+
+8:{ans:"D",pct:0.28,
+concept:`Net productivity = gross photosynthesis − respiration; the compensation point is where photosynthetic rate equals respiration rate.`,
+opts:{
+A:`Option A: Incorrect. At 30 °C photosynthesis is maximal (~1.0) but respiration is also high (~0.8), so the net gain is small. Growth depends on net, not gross, production.`,
+B:`Option B: Incorrect. The graph gives no information about water absorption; photosynthesis still occurs at 40 °C, which itself requires water.`,
+C:`Option C: Incorrect. At 35 °C the two curves have not yet met — photosynthesis is still above respiration. The compensation point occurs where the curves intersect (around 40 °C and again at low temperature).`,
+D:`Option D: Correct. At 20 °C photosynthesis (~0.9) greatly exceeds respiration (~0.45), giving the largest vertical gap between the two curves, i.e. the greatest net production of food.`}},
+
+9:{ans:"B",pct:0.71,
+concept:`Enzymes control both photosynthesis and respiration; above the optimum temperature the tertiary structure (active site) is denatured, so reaction rates fall.`,
+opts:{
+A:`Option A: Incorrect. Increased transpiration may cause water loss and stomatal closure, but this would affect photosynthesis (CO₂ entry) rather than respiration, and the graph gives no data on transpiration. It cannot explain the drop in *both* rates.`,
+B:`Option B: Correct. Both processes are enzyme-catalysed. Above the optimum, high temperature breaks the bonds maintaining enzyme tertiary structure, the active site loses its shape, enzyme–substrate complexes can no longer form, so both rates fall sharply. Statement (2) only.`,
+C:`Option C: Incorrect. It relies on (1), which the graph does not support.`,
+D:`Option D: Incorrect. Statement (3) is true as a fact (chloroplasts vs mitochondria) but the location of the organelles has no bearing on why the rates *decline* with rising temperature.`}},
+
+10:{ans:"D",pct:0.38,
+concept:`Oxygen debt — lactic acid formed in muscles during anaerobic respiration is carried by the blood to the liver, where it is oxidised/reconverted using oxygen once vigorous exercise stops.`,
+opts:{
+A:`Option A: Incorrect on both counts. Muscle cells produce lactic acid but do not break it down, and during vigorous exercise oxygen supply is insufficient for its oxidation.`,
+B:`Option B: Incorrect location. Breakdown occurs in the liver; the muscle exports lactic acid into the bloodstream.`,
+C:`Option C: Incorrect timing. Although the liver is the correct site, the extra oxygen needed to metabolise lactic acid is only available after exercise, when the oxygen debt is repaid.`,
+D:`Option D: Correct. Lactic acid diffuses into the blood, is transported to the liver, and after vigorous exercise the additional oxygen taken in allows it to be oxidised or converted back to glucose/glycogen.`}},
+
+11:{ans:"C",pct:0.63,
+concept:`Natural selection and stabilising selection — when an environment remains stable and a body form is already well adapted, selection pressure favours the existing form, so little morphological change accumulates over long periods.`,
+opts:{
+A:`Option A: Incorrect. Few predators reduces one selection pressure but does not explain the retention of the same body form; unselected variation could still accumulate through other pressures.`,
+B:`Option B: Incorrect. A wide range of prey concerns diet/niche breadth and does not account for morphological stability over millions of years.`,
+C:`Option C: Correct. The shark's body is already well adapted to a relatively unchanging ocean environment, so individuals with this form consistently have the highest survival and reproductive success. Variants deviating from it are selected against, so the form is conserved.`,
+D:`Option D: Incorrect. Evolution does not proceed towards being "most advanced"; there is no hierarchy of advancement, only differing adaptation to particular environments.`}},
+
+12:{ans:"A",pct:0.81,
+concept:`Reading a phylogenetic tree — nodes represent common ancestors, and the more recent the node shared by two taxa, the closer their evolutionary relationship. Branch length along the time axis indicates time since divergence.`,
+opts:{
+A:`Option A: Correct. Tracing back from pileated gibbons, gorillas and humans, all three branches meet at a single node, so they do share a common ancestor.`,
+B:`Option B: Incorrect. Gorillas branch from within the group that also contains white face sakis at a more recent node, whereas lemurs split off at the earliest node of the whole tree. Gorillas are therefore more closely related to white face sakis than to ring-tailed lemurs.`,
+C:`Option C: Incorrect. White face sakis are a present-day species on their own branch tip, not an ancestor. The two capuchins share a common ancestor at their node, which is a different (extinct) species.`,
+D:`Option D: Incorrect. The gorilla–human divergence node and the ring-tailed lemur–greater bamboo lemur node occur at different times, so the amounts of evolutionary divergence are not the same.`}},
+
+13:{ans:"D",pct:0.49,
+concept:`Evidence for evolution and construction of phylogenetic trees — fossil records give morphological and time-scale evidence, while molecular comparisons (DNA base sequences, amino acid sequences of homologous proteins) measure genetic similarity; the more similar the sequences, the more recent the common ancestor.`,
+opts:{
+A:`Option A: Incomplete. Fossils and DNA are both valid, but omitting protein comparison is wrong — comparing key proteins such as haemoglobin or cytochrome c is a standard method.`,
+B:`Option B: Incomplete. Fossils and proteins are valid but DNA comparison is in fact the most direct molecular evidence, so it cannot be excluded.`,
+C:`Option C: Incomplete. DNA and protein data are valid, but fossil records also provide evidence, especially for dating divergence points on the time axis.`,
+D:`Option D: Correct. All three lines of evidence are used together: fossils establish ancestral forms and timing, DNA sequence similarity and protein sequence similarity quantify relatedness, allowing branching order to be deduced.`}},
+
+14:{ans:"D",pct:0.66,
+concept:`Adaptive radiation and niche differentiation — variation in beak form allows different populations to exploit different food sources, so interspecific/intraspecific competition for the same resource is reduced.`,
+opts:{
+A:`Option A: Incorrect emphasis. Variation is the raw material *on which* natural selection acts, but the question asks the significance of the variation for *survival*. Saying it "promotes natural selection" does not explain a survival advantage.`,
+B:`Option B: Incorrect. Beak differences are feeding adaptations; species recognition is not their significance for survival, and the question concerns resource use.`,
+C:`Option C: Incorrect. Interbreeding between the different finch groups would break down the specialisation; separate feeding groups tend towards reproductive isolation, not interbreeding.`,
+D:`Option D: Correct. Insect eaters, cactus eaters, seed eaters and fruit eaters occupy different ecological niches, using different food resources. This reduces competition for food, so more individuals can survive and reproduce on the same islands.`}},
+
+15:{ans:"B",pct:0.76,
+concept:`Continuous variation and the interaction of genotype with environment — the same species (same gene pool) grown in different habitats shows different ranges of a quantitative character, showing environmental influence on phenotype.`,
+opts:{
+A:`Option A: Incorrect. Both distributions are bell-shaped over a continuous range, indicating polygenic (many genes) control, not control by two genes. The graph cannot tell you the number of genes.`,
+B:`Option B: Correct. The same species shows masses of about 10–70 g in habitat I but 170–230 g in habitat II. Since the genetic makeup of the species is the same, the marked difference must be caused by environmental factors such as light, water or mineral supply.`,
+C:`Option C: Incorrect. The masses form a continuous range with intermediates and a normal-type distribution, which is continuous variation. Discontinuous variation gives distinct categories with no intermediates.`,
+D:`Option D: Incorrect. Both habitats show a similar spread of about 60 g, so there is no evidence that habitat II has a greater environmental effect on the variation; the environments differ in their mean effect, not in degree of influence.`}},
+
+16:{ans:"C",pct:0.64,
+concept:`Deducing dominance from cross results, and using reciprocal crosses to distinguish autosomal from sex-linked inheritance.`,
+opts:{
+A:`Option A: Wrong dominance. In Crosses 2 and 3, red × white gives all red offspring, so red is dominant and white is recessive.`,
+B:`Option B: Wrong on both counts, since white is recessive and the gene is not sex-linked.`,
+C:`Option C: Correct. White is recessive because red × white → all red. The gene is on an autosome because Crosses 2 and 3 are reciprocal crosses (red father/white mother versus white father/red mother) and both give identical results, all red. If the gene were on a sex chromosome, the reciprocal crosses would give results differing between male and female offspring.`,
+D:`Option D: Correct dominance but wrong location. Sex linkage is ruled out by the identical outcomes of the reciprocal Crosses 2 and 3.`}},
+
+17:{ans:"B",pct:0.56,
+concept:`Test cross (back cross) ratio — a heterozygote crossed with a homozygous recessive gives a 1:1 phenotypic ratio.`,
+opts:{
+A:`Option A: Incorrect. 26 red : 73 white is about 1:3, which cannot arise from this cross; a 1:3 ratio with more recessives is not a possible Mendelian outcome here.`,
+B:`Option B: Correct. 48 red : 46 white approximates the expected 1:1 ratio, allowing for chance deviation in a finite sample.`,
+C:`Option C: Incorrect. 69:37 is close to 2:1, not a ratio produced by Rr × rr.`,
+D:`Option D: Incorrect. 71:25 is about 3:1, the ratio expected from Rr × Rr (both parents heterozygous red), not from a cross involving a white parent.`}},
+
+18:{ans:"C",pct:0.63,
+concept:`Deducing parental genotypes from offspring phenotypes — the appearance of a recessive phenotype in offspring means each parent contributed a recessive allele.`,
+opts:{
+A:`Option A: Incorrect. The red female cannot be homozygous RR, because then every offspring would inherit an R and all would be red. She must be heterozygous Rr.`,
+B:`Option B: Incorrect. A homozygous red male (RR) would pass R to every offspring, so no white offspring could appear.`,
+C:`Option C: Correct. A white male is necessarily homozygous recessive (rr), since white is the recessive phenotype. rr × Rr gives 1 red : 1 white, matching the observed result.`,
+D:`Option D: Incorrect. A heterozygote (Rr) would show the dominant red phenotype, so "heterozygote with white flowers" is impossible for a recessive trait.`}},
+
+19:{ans:"A",pct:0.39,
+concept:`Identifying carbohydrates from structure — X is single six-carbon sugar units (glucose), Y is small chains such as disaccharides (e.g. sucrose/maltose), Z is a large branched polysaccharide (starch in plants, glycogen in animals). Note the question asks for the INCORRECT statement.`,
+opts:{
+A:`Option A: This is the incorrect statement, so it is the answer. The major form of carbohydrate transported in the phloem is sucrose, a disaccharide, corresponding to Y rather than X. Sucrose is used because it is soluble and relatively non-reactive/unreactive in metabolism during transport.`,
+B:`Option B: A correct statement, so not the answer. During germination, stored starch (Z) in the cotyledons/endosperm is hydrolysed by amylase to sugars (X) to supply the embryo with respiratory substrate and building material.`,
+C:`Option C: A correct statement, so not the answer. Glucose (X) is the monomer from which cellulose, the main structural component of the plant cell wall, is synthesised.`,
+D:`Option D: A correct statement, so not the answer. In photosynthesis, sugars produced by the Calvin cycle in the stroma are converted into starch grains (Z) inside the chloroplast when photosynthesis exceeds the plant's immediate needs.`}},
+
+20:{ans:"C",pct:0.52,
+concept:`Sites of carbohydrate digestion and storage in humans — starch digestion occurs in the mouth and small intestine (not the stomach), while glycogen is the storage polysaccharide in liver and muscle.`,
+opts:{
+A:`Option A: Incorrect because it includes (1). No carbohydrate-digesting enzyme is secreted by the stomach, and the acidic pH (about pH 2) denatures salivary amylase, so conversion of polysaccharide (Z) to smaller sugars (Y) does not take place there.`,
+B:`Option B: Incorrect because it includes (1) for the same reason.`,
+C:`Option C: Correct. Statement (2) is right: excess glucose (X) absorbed into the blood is converted to glycogen (Z) in the liver under the influence of insulin. Statement (3) is right: muscle cells also store glycogen as a local energy reserve for respiration during contraction.`,
+D:`Option D: Incorrect because statement (1) is false.`}},
+
+21:{ans:"A",pct:0.78,
+concept:`Function of the gall bladder — bile is produced by the liver and stored/concentrated in the gall bladder, then released into the duodenum to emulsify fats.`,
+opts:{
+A:`Option A: Correct. The gall bladder's role is to store and concentrate bile so that a large amount can be released when a fatty meal enters the duodenum. Without it, bile trickles continuously from the liver and cannot be delivered in bulk, so emulsification of a large fat load is inadequate. Emulsification breaks fat into small droplets, increasing surface area for lipase action.`,
+B:`Option B: Incorrect. Lipase is secreted by the pancreas (and stored in pancreatic tissue before release), not stored in the gall bladder.`,
+C:`Option C: Incorrect. Bile is produced by liver cells, not by the gall bladder, so bile production continues after the gall bladder is removed.`,
+D:`Option D: Incorrect. Lipase production by the pancreas is entirely unaffected by removal of the gall bladder.`}},
+
+22:{ans:"A",pct:0.45,
+concept:`Components of a response pathway — stimulus, receptor, effector — applied to a nervous reflex (pupil reflex) and a plant tropic response (phototropism, mediated by auxin).`,
+opts:{
+A:`Option A: Correct. Statement (1) is right: the pupil reflex responds to light intensity, whereas phototropism responds to the direction of unilateral light. Statement (2) is right: the photoreceptors for the pupil reflex are in the retina, while the light-sensitive region for phototropism is the shoot tip, which also produces auxin.`,
+B:`Option B: Incorrect because it includes (3).`,
+C:`Option C: Incorrect because it includes (3).`,
+D:`Option D: Incorrect. Statement (3) is wrong: the effector of the pupil reflex is the circular and radial muscles of the iris, not the pupil itself (the pupil is merely the aperture). Calling the whole shoot the effector is also imprecise, as the response is differential elongation of cells in the region behind the tip.`}},
+
+23:{ans:"A",pct:0.15,
+concept:`Distinguishing independent variable (deliberately changed by the investigator to test its effect) from dependent variable (measured outcome) and from procedural controls.`,
+opts:{
+A:`Option A: Correct. Only one factor is being deliberately varied to compare its effect: the region of skin tested (fingertip, palm, back of hand, upper arm). The distance between the caliper points is not an independent variable, because it is progressively reduced in order to *measure* the two-point discrimination threshold, i.e. it forms the dependent variable being recorded. Step 5 (0 mm setting) is a control check, not a variable under study. Hence one independent variable.`,
+B:`Option B: Incorrect. This wrongly counts the caliper distance as a second independent variable, when it is the quantity being measured.`,
+C:`Option C: Incorrect. It over-counts by also treating factors such as pressure applied or the 0 mm control as variables under investigation, although these are kept constant or serve as controls.`,
+D:`Option D: Incorrect. Treating each of the four body regions as a separate independent variable is a misunderstanding; the four regions are four levels of a single variable, namely body location.`}},
+
+24:{ans:"D",pct:0.46,
+concept:`Assumptions in experimental design — the two-point discrimination threshold is used as an indirect measure of touch receptor density, which only works if the two points stimulate two distinct receptors with non-overlapping receptive fields.`,
+opts:{
+A:`Option A: Incorrect. This is a procedural precaution to avoid the subject using visual cues, not the assumption underlying the link between threshold distance and receptor density.`,
+B:`Option B: Incorrect. This is a predicted result or conclusion of the investigation, not an assumption; if it were assumed in advance, the experiment would be pointless.`,
+C:`Option C: Incorrect as stated. This reverses the logic. A *shorter* discriminated distance indicates higher receptor density; a closer distance still being felt as two touches implies higher density, but as worded the statement describes an interpretation rule rather than the underlying biological assumption, and the interpretation is stated the wrong way round.`,
+D:`Option D: Correct. The method only measures receptor density validly if two touches are perceived because each point stimulates a separate touch receptor, with their receptive fields not overlapping. If both points fell within one receptive field, or if the fields overlapped, only one touch would be felt regardless of receptor density, invalidating the inference.`}},
+
+25:{ans:"A",pct:0.41,
+concept:`Experimental design — validity means the procedure actually measures what it claims to measure. Because the two-point discrimination test relies entirely on the subject's verbal report, a check is needed to confirm the subject is genuinely reporting sensation rather than guessing based on expectation.`,
+opts:{
+A:`Option A: Correct. Randomly inserting trials with the calipers set at 0 mm (a single point) provides a check on the subject's honesty and attentiveness. If a subject reports "two touches" when only one point is applied, the results are not genuine reports of touch receptor stimulation, so the readings would not be measuring receptor density at all. Confirming that 0 mm is always reported as one touch shows the responses truly reflect stimulation of touch receptors, so the measurement is valid.`,
+B:`Option B: Incorrect. Accuracy refers to how close a measured value is to the true value, which depends on the calibration and reading of the calipers. Step 5 does not compare a measured distance with a known standard, so it is not an accuracy check.`,
+C:`Option C: Incorrect. Reliability is improved by repeating the same measurement, for example testing many subjects or repeating each distance several times and taking a mean. Step 5 is not a repeat of the actual measurement, since 0 mm is not one of the distances being tested.`,
+D:`Option D: Incorrect. Random error is reduced by taking repeated readings and averaging. Step 5 detects a systematic problem in the subject's reporting rather than reducing the scatter of readings.`}},
+
+26:{ans:"C",pct:0.46,
+concept:`Functions of brain regions — the cerebrum contains sensory areas (receiving and interpreting impulses from receptors), motor areas (sending impulses to skeletal muscles) and association areas (integrating information, thinking, reasoning, language and memory); the cerebellum coordinates and fine-tunes muscular movement, maintaining balance and posture.`,
+opts:{
+A:`Option A: Incomplete. The motor area and association area are both involved, but coordination of the many precise muscle movements of speech also requires the cerebellum, so (1) cannot be excluded.`,
+B:`Option B: Incorrect because it includes (3) and omits (4). Speaking is an output activity; the sensory area receives incoming impulses from receptors and is not responsible for coordinating the act of speaking itself.`,
+C:`Option C: Correct. The association area formulates the content of speech, involving language, thought and memory. The motor area then sends nerve impulses along motor neurones to the skeletal muscles of the larynx, tongue, lips, jaw and diaphragm. The cerebellum coordinates these muscles so that they contract in the correct sequence, with the correct strength and timing, producing smooth and precise speech. Hence (1), (2) and (4).`,
+D:`Option D: Incorrect. It wrongly includes the sensory area, which is not responsible for coordinating speech production, and omits the motor area, which is essential for stimulating the speech muscles.`}},
+
+27:{ans:"A",pct:0.64,
+concept:`Accommodation — the ciliary muscle and suspensory ligaments alter lens thickness so that light from objects at different distances is focused onto the retina. In the diagram, P is the ciliary muscle and Q is the lens.`,
+opts:{
+A:`Option A: Correct. As the bird flies away, less refraction is needed. The ciliary muscle (P) relaxes, which pulls the suspensory ligaments taut, stretching the lens (Q) so it becomes thinner and less convex.`,
+B:`Option B: Incorrect. Relaxation of the ciliary muscle tightens the suspensory ligaments, so the lens is pulled thin, not thickened.`,
+C:`Option C: Incorrect. Contraction of the ciliary muscle is the response to a *near* object, not a receding one.`,
+D:`Option D: Incorrect. This is the accommodation pattern for viewing a near object: ciliary muscle contracts, ligaments slacken, lens becomes thicker.`}},
+
+28:{ans:"B",pct:0.61,
+concept:`Short-sightedness (myopia) — the eyeball is too long (or the lens too strongly refracting), so light from a distant object converges before reaching the retina.`,
+opts:{
+A:`Option A: Incorrect combination. A too-long eyeball brings the focal point in front of the retina, not behind it.`,
+B:`Option B: Correct. Jane cannot see the distant bird clearly, so she is short-sighted. Her eyeball is too long from front to back, so even with the lens at its thinnest (ciliary muscle fully relaxed) the image of the distant object is focused in front of the retina, giving a blurred image. A concave (diverging) lens corrects this.`,
+C:`Option C: Incorrect. A too-short eyeball with the image behind the retina describes long-sightedness (hypermetropia), in which *near* objects cannot be focused; Jane's problem is with a distant object.`,
+D:`Option D: Incorrect on both counts, as a too-short eyeball would place the focal point behind the retina, not in front.`}},
+
+29:{ans:"B",pct:0.62,
+concept:`Fertilisation and the conditions required for pregnancy — evaluating whether one true statement is a valid causal explanation of another.`,
+opts:{
+A:`Option A: Incorrect. Statement II gives the normal site and event of fertilisation, but it does not explain *why* fertilisation and pregnancy sometimes fail. Failure is due to factors such as copulation occurring outside the fertile period (no ovum present in the oviduct), insufficient or non-viable sperm, blocked oviducts, or failure of the zygote/blastocyst to implant in the endometrium.`,
+B:`Option B: Correct. Both statements are true: fertilisation does occur in the oviduct when a sperm nucleus fuses with the ovum nucleus, and not every copulation results in fertilisation and pregnancy. However, II is only a description of normal fertilisation and does not account for I.`,
+C:`Option C: Incorrect. Statement II is correct — the upper oviduct (near the funnel) is the usual site of fertilisation.`,
+D:`Option D: Incorrect. Statement I is correct; fertilisation depends on the timing of ovulation and the survival time of the gametes, so many copulations do not lead to pregnancy.`}},
+
+30:{ans:"C",pct:0.36,
+concept:`Interpreting dose–response data for auxin — the control (0 ppm) gives the baseline growth, and "inhibition" means growth *less than* the control, not merely less than the optimum.`,
+opts:{
+A:`Option A: Incorrect. At 0.1 ppm the sections grew to about 32.4 mm, far more than the control, so growth is strongly promoted.`,
+B:`Option B: Incorrect. At 10 ppm the mean is about 23.9 mm, still well above the control. Growth is less than at the optimum (1 ppm) but it is still promoted relative to no auxin, so this is not inhibition.`,
+C:`Option C: Correct. At 100 ppm the mean length is about 12.7 mm, which is below the control value of about 14.9 mm. This is the lowest concentration tested at which growth falls below the control, i.e. the lowest inhibiting concentration.`,
+D:`Option D: Incorrect. 1000 ppm does inhibit growth (about 10.0 mm, essentially no elongation), but it is not the *lowest* such concentration, since 100 ppm already inhibits.`}},
+
+31:{ans:"D",pct:0.19,
+concept:`Regions of a plant shoot — cell division, cell elongation and cell differentiation zones. Auxin promotes growth by stimulating cell elongation, so only sections containing elongating cells can respond.`,
+opts:{
+A:`Option A: Incorrect as an explanation. Labelling the value "anomalous" merely names the observation (10.1 mm versus 37.1 and 37.2 mm) without giving a biological reason, and the question asks for the best *explanation*.`,
+B:`Option B: Incorrect. Data should not be deleted simply because they differ; there is no evidence of a measurement or procedural error, and discarding valid data is poor scientific practice.`,
+C:`Option C: Weak. Individual variation could account for small differences, but not for a difference this large, from about 37 mm down to 10.1 mm, when the other two replicates agree closely.`,
+D:`Option D: Correct. A section taken from the region of cell differentiation contains cells that have already stopped elongating and have developed permanent, thickened walls. Such cells cannot respond to auxin by elongating, so the section stayed at essentially its original 10 mm length despite the optimum auxin concentration.`}},
+
+32:{ans:"B",pct:0.58,
+concept:`The nitrogen cycle — nitrification, assimilation, feeding, and decomposition, and classifying each as anabolic (building up) or catabolic (breaking down).`,
+opts:{
+A:`Option A: Incorrect. Process (1), ammonium compounds → nitrates, is nitrification, carried out by nitrifying bacteria. Nitrogen-fixing bacteria convert atmospheric N₂ into ammonium compounds or amino acids, which is not shown here.`,
+B:`Option B: Correct. Process (2) is the uptake of nitrates by plants and their conversion into amino acids and then plant proteins. Building large protein molecules from small subunits by condensation is a synthetic, energy-requiring reaction, so it is anabolic.`,
+C:`Option C: Incorrect. Process (3), plant proteins → animal proteins, involves digestion of plant protein into amino acids followed by synthesis of animal protein. Because the end result is the building up of new proteins (assimilation), it is not simply catabolic.`,
+D:`Option D: Incorrect. Process (4) is decomposition/ammonification, in which decomposers (saprophytic bacteria and fungi) convert organic nitrogen in dead matter and excreta into ammonium compounds. Denitrifying bacteria instead convert nitrates back to nitrogen gas, which is not shown.`}},
+
+33:{ans:"D",pct:0.5,
+concept:`Assimilation — the conversion of absorbed simple molecules into the organism's own complex body constituents.`,
+opts:{
+A:`Option A: Incorrect. Process (1) is nitrification, a bacterial oxidation of ammonium to nitrate for energy release. No organism is building nitrogenous compounds into its own body structures here.`,
+B:`Option B: Incomplete. Process (3) is assimilation, but process (2) also is, so (3) alone is not the full answer.`,
+C:`Option C: Incorrect because it includes (1) and omits (3).`,
+D:`Option D: Correct. Process (2) is assimilation by plants, which take up nitrates and build them into their own amino acids and proteins. Process (3) is assimilation by animals, which absorb amino acids from digested plant protein and use them to synthesise their own animal proteins. Both involve incorporating absorbed nutrients into the organism's own complex molecules.`}},
+
+34:{ans:"B",pct:0.44,
+concept:`Interspecific relationships — mutualism (both partners benefit), commensalism (one benefits, the other unaffected), predation (one organism kills and eats another), competition (two organisms use the same limited resource).`,
+opts:{
+A:`Option A: Second half wrong. Ants and butterflies do not compete, since ants eat the sugary solution and the eggs, whereas adult butterflies do not feed on either; they use the leaf as an egg-laying site.`,
+B:`Option B: Correct. Plant X and ant is mutualism: the ants gain food (the sugary solution) while the plant benefits because the ants eat the butterfly eggs, reducing leaf damage by caterpillars. Ant and butterfly is predation: the ants kill and consume the butterfly's eggs, so the ant is the predator and the butterfly (its eggs) is the prey.`,
+C:`Option C: Incorrect on both counts. It is not commensalism, since the plant clearly benefits from egg removal, and the ant–butterfly relationship is predation, not competition.`,
+D:`Option D: First half wrong. Commensalism would require the plant to gain nothing, but the plant gains protection against herbivory, making the relationship mutually beneficial.`}},
+
+35:{ans:"C",pct:0.36,
+concept:`Source of heritable variation and natural selection — only mutations in gametes (germ line, arising during meiosis) can be inherited by offspring; natural selection then preserves the advantageous variant.`,
+opts:{
+A:`Option A: Incorrect because it includes (1) and omits (3).`,
+B:`Option B: Incorrect because it includes (1).`,
+C:`Option C: Correct. Statement (2) is valid: a gene mutation during meiosis occurs in cells forming gametes, so the new allele can be passed to offspring and appear in later generations. Statement (3) is valid: once the variant appears, individuals secreting the sugary solution attract ants that remove butterfly eggs, so they suffer less caterpillar damage, survive and reproduce better, and the allele increases in frequency in the population.`,
+D:`Option D: Incorrect. Statement (1) is wrong because leaf cells are somatic cells. A mutation in a somatic cell is not passed to gametes, so it cannot be inherited by the next generation and cannot explain the emergence of the structure in the species.`}},
+
+36:{ans:"D",pct:0.43,
+concept:`Non-specific (innate) defence acts against all pathogens in the same way and does not depend on recognising a particular antigen, in contrast to specific defence by lymphocytes and antibodies.`,
+opts:{
+A:`Option A: Incomplete, since it omits (3).`,
+B:`Option B: Incomplete, since it omits (2).`,
+C:`Option C: Incomplete, since it omits (1).`,
+D:`Option D: Correct, all three are non-specific. Tear glands secrete tears containing lysozyme, which washes away and kills a wide range of microorganisms on the eye surface. Phagocytes engulf and digest any invading microorganism by phagocytosis, without antigen specificity. Epithelial tissue, such as the skin epidermis and mucous membranes of the respiratory tract, forms a physical barrier preventing the entry of pathogens generally.`}}
+},
+
+/* ==================== 2025 ==================== */
+"2025": {
+1:{ans:"C",pct:0.49,
+concept:`Correct sequence of light microscope operation. Because the field of view shrinks when you switch to a higher-power objective, the specimen must first be centred at low power; also, the image in a compound microscope is inverted and laterally reversed, so the slide must be moved in the direction opposite to the desired image movement.`,
+opts:{
+A:`Option A: Wrong order. Changing to the high-power objective first risks the white blood cell falling outside the much smaller field of view, so it could no longer be located.`,
+B:`Option B: Same ordering error as A, plus the movement direction is the reverse of what is needed.`,
+C:`Option C: Correct. The white blood cell in Photomicrograph X sits at the upper-left of the field. To bring it to the centre, the slide is moved away from the observer and to the left (image moves towards observer and to the right, i.e. towards the centre). Only then is the higher-power objective swung into place and fine focus adjusted.`,
+D:`Option D: Direction is inverted — moving the slide towards the observer and to the right shifts the image further away from the centre, losing the cell.`}},
+
+2:{ans:"A",pct:0.81,
+concept:`Use of a scale bar to determine actual size. Actual size = (measured length on image) × (actual length represented by scale bar ÷ measured length of scale bar).`,
+opts:{
+A:`Option A: Correct. The distance V–W measures about half the length of the 25 µm scale bar, giving an actual diameter of roughly 12.5 µm — a realistic value for a human white blood cell (typically 10–20 µm, larger than the ~7 µm red blood cells around it).`,
+B:`Option B: 20.0 µm would require V–W to be about 80% of the scale bar; it is not.`,
+C:`Option C: 50.0 µm assumes V–W is twice the scale bar. This is also biologically implausible for a leucocyte.`,
+D:`Option D: 0.5 cm = 5000 µm. This is the image scale of magnitude, not the actual size; confusing image size with actual size ignores the magnification entirely.`}},
+
+3:{ans:"D",pct:0.35,
+concept:`Nitrate is the main source of nitrogen for plants. Nitrogen is needed to build amino acids (hence all proteins), nucleotides (hence DNA and RNA), and the chlorophyll molecule.`,
+opts:{
+A:`Statement (1) chromosome: Requires N — chromosomes consist of DNA (nitrogenous bases) plus histone proteins.`,
+B:`Statement (2) endoplasmic reticulum: Requires N — it is a membrane system of phospholipids (the phosphate head group region includes nitrogen-containing groups such as choline) and embedded membrane proteins.`,
+C:`Statement (3) thylakoid membrane: Requires N — it holds chlorophyll (a nitrogen-containing porphyrin ring with Mg²⁺) plus the protein complexes of the light-dependent reactions.`,
+D:`Option D: Correct. All three structures contain nitrogen-containing components.`}},
+
+4:{ans:"B",pct:0.37,
+concept:`Core Concepts: Enzyme specificity and the enzyme composition of digestive juices. Gastric juice contains pepsin (a protease) only; pancreatic juice contains amylase, trypsin and lipase. A valid test must exploit an enzyme present in one juice but absent in the other. Options Biological Explanation: Method (1): Fails. Both juices contain a protease (pepsin in gastric juice, trypsin in pancreatic juice), so protein would be digested in both samples and the protein test result would be similar. Method (2): Works. Only pancreatic juice contains amylase, so only that sample digests starch. The iodine test would give a brown/yellow result for pancreatic juice but blue-black (starch remaining) for gastric juice. Method (3): Fails. Neither juice contains sucrase — sucrase is a membrane-bound enzyme of the small intestinal epithelium, not a component of either juice. Sucrose would remain undigested in both, so Benedict's test would be negative in both.`,
+opts:{
+A:`Option A: Selects only the invalid protein method.`,
+B:`Option B: Correct — the starch/iodine method alone distinguishes the two.`,
+C:`Option C: Both selected methods are invalid.`,
+D:`Option D: Includes the invalid sucrose method.`}},
+
+5:{ans:"D",pct:0.62,
+concept:`Structural adaptations of the small intestine for absorption. Finger-like villi projecting into the lumen are characteristic of the small intestine (duodenum, jejunum, ileum) and greatly increase surface area for absorption. Options Biological Explanation: Statement (1) colon: Incorrect. The colon lacks villi; its mucosa is relatively flat with abundant goblet cells, as its main role is water and mineral salt reabsorption, not nutrient absorption. Statement (2) duodenum: Correct. Part of the small intestine, so villi are present. Statement (3) ileum: Correct. Villi are most developed here, the main site of nutrient absorption.`,
+opts:{
+A:`Option A: Names the one region without villi.`,
+B:`Option B: Incomplete — ileum also has villi.`,
+C:`Option C: Wrongly includes colon.`,
+D:`Option D: Correct — villi occur in both duodenum and ileum.`}},
+
+6:{ans:"C",pct:0.35,
+concept:`Structure X is the lacteal, the blind-ended lymphatic capillary in the centre of a villus. Lacteals absorb fatty acids, glycerol and fat-soluble vitamins (A, D, E, K), which are re-formed into triglycerides in the epithelial cells and enter the lymph as fat droplets. Water-soluble products (glucose, amino acids, vitamin C, mineral salts) pass into the blood capillaries of the villus.`,
+opts:{
+A:`Option A: Incorrect. Amino acids are water-soluble and are absorbed into the blood capillary network, then carried by the hepatic portal vein.`,
+B:`Option B: Incorrect as a "direct" absorption into the lacteal — glycerol is water-soluble and small, so it is taken up into the blood capillaries; note the question asks which substance enters structure X directly.`,
+C:`Option C: Correct. Vitamin A is fat-soluble, so it dissolves in the lipid droplets and is transported with them into the lacteal.`,
+D:`Option D: Incorrect. Vitamin C is water-soluble and enters the blood capillaries.`}},
+
+7:{ans:"C",pct:0.66,
+concept:`The lymphatic route for absorbed fat. Fatty acids enter the lacteal, drain through lymph vessels to the thoracic duct, which empties into a vein near the neck; the blood then returns via the vena cava to the right atrium. Fats therefore bypass the hepatic portal vein and the liver on first pass.`,
+opts:{
+A:`Option A: Wrong entry point. Fatty acids are absorbed into lacteals, not blood capillaries, and capillaries do not drain into lymph vessels.`,
+B:`Option B: This is the route for water-soluble products such as glucose and amino acids, not fatty acids.`,
+C:`Option C: Correct. Lacteals in villi → lymph vessels (thoracic duct) → vena cava → right atrium.`,
+D:`Option D: Lacteals are lymphatic, not connected to the hepatic portal vein; lymph never drains into the hepatic portal vein.`}},
+
+8:{ans:"A",pct:0.51,
+concept:`Valves of the heart and prevention of backflow. The semilunar valves guard the openings of the aorta and the pulmonary artery; they snap shut during ventricular diastole when arterial pressure exceeds ventricular pressure, preventing blood returning into the ventricles. The atrioventricular (bicuspid and tricuspid) valves prevent backflow from ventricles to atria and are unrelated to the arteries.`,
+opts:{
+A:`Option A: Correct. V and W are the two semilunar valves — the aortic and pulmonary valves — sitting at the bases of the aorta and pulmonary artery in this superior view.`,
+B:`Option B: Y is an atrioventricular valve; it prevents atrial backflow, not arterial backflow.`,
+C:`Option C: X is an atrioventricular valve, so this pair is only half correct.`,
+D:`Option D: Both X and Y are atrioventricular valves, which close during ventricular systole to stop blood re-entering the atria — the opposite phase to what is asked.`}},
+
+9:{ans:"A",pct:0.75,
+concept:`Competitive inhibition and the lock-and-key model. Compound M has a shape complementary to the active site of enzyme J (test tube II shows enzyme–M complexes forming) but no product is produced. M therefore competes with substrate K for the active site, reducing the number of enzyme–substrate complexes formed per unit time and lowering the yield of product L within the fixed 10 minutes.`,
+opts:{
+A:`Option A: Correct. With M occupying some active sites, fewer J molecules are free to bind K, so less L is formed in 10 minutes than in test tube I — a lower concentration of L.`,
+B:`Option B: The prediction (lower) is right but the reason is wrong. Test tube II shows M binding reversibly to the active site; there is no evidence of denaturation or destruction of the active site, which would be irreversible inhibition.`,
+C:`Option C: "Same" is wrong. Although it is true that J forms no product with M, the presence of M still blocks active sites and slows L production, so the amount of L after 10 minutes must be lower.`,
+D:`Option D: "Higher" is wrong. Adding an inhibitor cannot raise product yield; also, in test tube III the substrate K is diluted among the same number of enzyme molecules that are partly occupied by M.`}},
+
+10:{ans:"A",pct:0.41,
+concept:`Effect of substrate concentration on enzyme-catalysed reactions. At the same temperature and enzyme concentration, a higher substrate concentration increases the frequency of successful enzyme–substrate collisions, giving a steeper initial rate. Because substrate is the limiting factor here, a higher starting concentration also yields a larger total amount of product before the curve levels off when all substrate is used up.`,
+opts:{
+A:`Option A: Correct. Set-up II (3% H₂O₂) shows a steeper initial gradient than set-up I (2%) and plateaus at a higher accumulated volume of O₂, since more substrate means more total product.`,
+B:`Option B: Wrong final volumes. It shows both set-ups reaching the same plateau, which would only occur if substrate amounts were equal; 3% H₂O₂ contains more substrate, so its plateau must be higher.`,
+C:`Option C: Incorrect shape. Accumulated volume is shown rising and then dropping abruptly to zero. Accumulated (cumulative) volume can never decrease — it can only rise then level off.`,
+D:`Option D: Incorrect shape for the same reason: bell-shaped curves imply gas disappearing. Such curves describe rate against time, not accumulated volume.`}},
+
+11:{ans:"B",pct:0.49,
+concept:`Fair test design for comparing enzyme concentration between two sources. To make a valid comparison of catalase concentration in two fruits, the extraction must yield juice of comparable dilution — so the same mass of tissue must be ground in the same volume of water at the same temperature. Any variable that would alter enzyme activity or the degree of dilution must be controlled; variables that do not affect the final concentration of enzyme in the extract need not be.`,
+opts:{
+A:`Option A: Must be controlled. Catalase is a protein; grinding at a high temperature would denature it (hydrogen and ionic bonds in the tertiary structure break, the active site loses its shape), so one extract could show artificially low activity for reasons unrelated to its true catalase content.`,
+B:`Option B: Correct — need not be kept constant. Cut surface area only affects how quickly cell contents are released during grinding. Since the fruit slices are ground thoroughly and then filtered, essentially all the cells are ruptured and all the catalase is released into the same volume of water regardless of how the slices were cut. The final concentration in the juice depends on total mass and water volume, not on how finely the tissue was pre-sliced.`,
+C:`Option C: Must be controlled. Total mass of fruit determines the total number of cells, hence the total amount of catalase extracted. Different masses would change the concentration of the extract, confounding the comparison.`,
+D:`Option D: Must be controlled. The volume of distilled water sets the dilution factor. Adding more water to one fruit would lower its extract concentration independently of the actual catalase content of the tissue.`}},
+
+12:{ans:"C",pct:0.35,
+concept:`Using density change as an indicator of net osmotic water movement. If algal cells lose water to the sucrose solution, that solution becomes more dilute and less dense; if cells gain water, the solution becomes more concentrated and denser. When the dyed drop neither rises nor sinks in the fresh solution of the same concentration, its density is unchanged, meaning no net water movement occurred — so the water potential of the solution matched that of the cells. Options Biological Explanation: Statement (1): Correct. The drop taken from the 10% set-up remains suspended at the centre of the 10% test solution, showing its density is essentially unchanged from, and therefore closest to, that of the original 10% sucrose solution. Statement (2): Incorrect. Cells in a tissue are not identical — they have a range of water potentials. A drop that does not move indicates the average water potential of the algal cells equals that of 10% sucrose; some individual cells will still have gained water and others lost it. The word "all" makes this statement false. Statement (3): Correct. No density change means no net water movement between the 10% sucrose solution and the algal cells; water molecules still diffuse in both directions, but at equal rates because the water potential gradient is zero.`,
+opts:{
+A:`Option A: Incomplete — omits statement (3), which follows directly from the unchanged density.`,
+B:`Option B: Selects only the statement invalidated by the word "all".`,
+C:`Option C: Correct — (1) and (3) only.`,
+D:`Option D: Wrongly includes statement (2).`}},
+
+13:{ans:"D",pct:0.29,
+concept:`Independent confirmation of an osmosis result using a different, direct indicator. The state of a plant cell reveals the direction of net water movement: in a solution of lower water potential the cell loses water, the protoplast shrinks and pulls away from the cell wall (plasmolysis); in a solution of higher water potential the cell gains water and becomes turgid. The point of incipient plasmolysis identifies the solution whose water potential matches the cells.`,
+opts:{
+A:`Option A: Poor confirmation. Surface area of whole algae is difficult to measure accurately and changes little; algal cells have rigid cellulose cell walls that resist large volume changes, so this gives no reliable signal.`,
+B:`Option B: Invalid. Dry mass reflects organic matter, not water content — the algae are dried before weighing, so any water gained or lost is driven off. Dry mass would be essentially unchanged by osmosis, and the measurement destroys the sample.`,
+C:`Option C: Unreliable. The liquid level change caused by water leaving or entering a small number of algae is extremely small relative to the volume of solution, and evaporation over an hour would introduce error larger than the effect being measured.`,
+D:`Option D: Correct. Examining the algal cells microscopically shows directly whether they are turgid, at incipient plasmolysis, or plasmolysed. Finding that cells in 10% sucrose are just at incipient plasmolysis (about 50% plasmolysed) independently confirms that this solution has the same water potential as the cells.`}},
+
+14:{ans:"B",pct:0.24,
+concept:`Assumptions underlying the density (Chardakov) method. The whole method rests on interpreting a density change in the sucrose solution as being caused only by water movement. If sucrose molecules or cell solutes also crossed the membrane, the density change would no longer measure water movement alone and the conclusion about water potential would be invalid.`,
+opts:{
+A:`Option A: This is a known property of cell membranes, not an assumption specific to the experiment — and it is stated loosely. The membrane is partially (differentially) permeable, which is a fact being relied upon rather than an assumption that must be granted for the density logic to work.`,
+B:`Option B: Correct. The experiment assumes sucrose does not enter the cells and cell solutes do not leak out. Only then can the change in density of the sucrose solution be attributed purely to water gained from or lost to the cells, which is what makes the "no movement of the drop" reading meaningful.`,
+C:`Option C: Not a valid assumption. Observing whether a drop rises, sinks or stays put is a judgement made by eye, so subjectivity is a genuine source of error. Assuming it away is unjustified rather than a legitimate assumption of the method.`,
+D:`Option D: This confuses the experiment's conclusion with an assumption, and it is not generally true. After one hour, equilibrium is reached only in the solution whose water potential already matched the cells; in the other concentrations the cells and solution do not end up with identical water potentials, and if they did, the method could detect nothing.`}},
+
+15:{ans:"B",pct:0.44,
+concept:`Adaptations of capillaries for exchange, and the distinction between a single capillary and the capillary bed. Blood flows slowly through a capillary bed because the total cross-sectional area of the many branching capillaries is far greater than that of the supplying arteriole — velocity falls as total cross-sectional area rises. Separately, each capillary has a very narrow lumen (about one red blood cell wide) and a wall one cell thick, which shortens diffusion distance and forces red blood cells into single file. Slow flow and narrow lumen are both adaptations that favour exchange, but one does not cause the other.`,
+opts:{
+A:`Option A: The causal link is wrong. A narrow tube alone does not slow flow; if anything, narrowing a single vessel while maintaining flow rate would increase velocity. The slow flow arises from the large total cross-sectional area created by branching into many capillaries, not from the narrowness of any one of them.`,
+B:`Option B: Correct. Statement I is true (slow flow in the capillary bed allows more time for the exchange of oxygen, nutrients, carbon dioxide and wastes with tissue fluid). Statement II is also true (the lumen is roughly 7–10 µm, about the diameter of a red blood cell). But II is not the explanation for I.`,
+C:`Option C: Statement II is factually correct, so this is wrong. The narrow lumen is a standard capillary adaptation, keeping red blood cells close to the wall and reducing diffusion distance.`,
+D:`Option D: Statement I is factually correct, so this is wrong. Slow capillary flow is well established and is functionally important for exchange.`}},
+
+16:{ans:"C",pct:0.33,
+concept:`Sources of genetic variation in sexual versus asexual reproduction. Sexual reproduction involves meiosis (independent assortment of homologous chromosomes and crossing over) followed by random fertilisation, generating offspring genetically different from each other and from the parents. Asexual reproduction is based on mitosis, so offspring are genetically identical clones. Critically, sexual reproduction requires the fusion of gametes, but not necessarily two separate parent individuals — self-fertilisation in hermaphrodites and self-pollination in flowering plants are sexual reproduction involving a single parent.`,
+opts:{
+A:`Option A: Both parts fail. Statement II is false, and even if it were true, the number of parents is not the mechanism generating variation — meiosis and random fertilisation are.`,
+B:`Option B: Requires II to be correct, which it is not because of the word "always".`,
+C:`Option C: Correct. Statement I is true: crossing over, independent assortment and random fertilisation produce far greater genetic variation than the mitotic cloning of asexual reproduction. Statement II is false: self-pollinating plants and self-fertilising hermaphrodites such as tapeworms reproduce sexually with only one parent individual.`,
+D:`Option D: Reverses the truth values. Statement I is a core, correct comparison; statement II is the false one.`}},
+
+17:{ans:"B",pct:0.67,
+concept:`Antagonistic action of the iris muscles in controlling pupil size. The circular (constrictor) muscle and radial (dilator) muscle of the iris work antagonistically. Pupil dilation results from contraction of the radial muscle together with relaxation of the circular muscle; pupil constriction results from the reverse. Dilating eye drops are used before examination so more light enters and a wider view of the retina is possible.`,
+opts:{
+A:`Option A: The ciliary muscle controls lens curvature for accommodation, not pupil diameter. Nothing in the photograph indicates a change in focusing, and this muscle's state cannot be deduced from pupil size.`,
+B:`Option B: Correct. The left pupil is clearly larger (dilated) than the right. Dilation requires the circular muscle of the iris to relax, allowing the radial muscle to pull the pupil open.`,
+C:`Option C: The pupil is not a muscle — it is the aperture, a gap in the centre of the iris. An opening cannot contract or relax.`,
+D:`Option D: The radial muscle is contracting, not relaxing. Its contraction shortens the radial fibres and widens the pupil.`}},
+
+18:{ans:"B",pct:0.45,
+concept:`Accommodation and lens elasticity. Lens curvature increases when viewing near objects (ciliary muscle contracts, suspensory ligaments slacken, the elastic lens becomes more convex) and decreases for distant objects. A more elastic lens can change its curvature over a greater range. Since both students view the same object from the same position, differences between their curves reflect differences in their lenses, not in the object's position.`,
+opts:{
+A:`Option A: Cannot be concluded. Short-sightedness means the image of a distant object forms in front of the retina, usually due to an overly long eyeball or an excessively curved lens. A graph of curvature changes alone provides no information about where the image falls relative to the retina, so no diagnosis can be made.`,
+B:`Option B: Correct. Student A's curve spans a larger range of curvature values — rising higher between the 2nd and 4th second and falling further by the 6th second — than student B's. A greater capacity to change shape indicates a more elastic lens.`,
+C:`Option C: Unsupported and biologically muddled. Both students are focusing on the object, so in normal eyes the image would form on the retina. Increasing curvature from the 2nd to the 4th second is the normal response to an approaching object, keeping the image sharply focused on the retina rather than in front of it.`,
+D:`Option D: The direction is reversed. From the 4th to the 6th second the lens curvature decreases in both students, which is the adjustment made for a receding object — the lens flattens to focus light from a more distant source. The object is therefore moving away.`}},
+
+19:{ans:"C",pct:0.44,
+concept:`Compartmentalisation of aerobic respiration. Glycolysis takes place in the cytoplasm, where glucose is converted to pyruvate; the enzymes for glycolysis are therefore absent from isolated mitochondria. The link reaction, Krebs cycle and oxidative phosphorylation occur inside the mitochondrion, where oxygen acts as the final electron acceptor. An isolated mitochondrial suspension can only respire a substrate it can import and process — pyruvate, not glucose.`,
+opts:{
+A:`Option A: Wrong for the glucose stage. Isolated mitochondria lack the cytoplasmic glycolytic enzymes, so glucose cannot be broken down and no oxygen is consumed after it is added.`,
+B:`Option B: Wrong on both counts. It claims oxygen falls with glucose (impossible without glycolysis) and stays constant with pyruvate (impossible, since pyruvate is the substrate mitochondria can use).`,
+C:`Option C: Correct. After glucose is added there is no change in oxygen concentration, because the mitochondria cannot metabolise glucose. After pyruvate is added, oxygen concentration decreases, as pyruvate enters the link reaction and Krebs cycle, generating reduced NAD and FAD that feed electrons to the electron transport chain where oxygen is reduced to water.`,
+D:`Option D: Wrong for the pyruvate stage. Pyruvate is precisely the substrate mitochondria can oxidise, so oxygen uptake must occur and the oxygen concentration must fall.`}},
+
+20:{ans:"A",pct:0.71,
+concept:`The two stages of photosynthesis and their locations and requirements. The photochemical (light-dependent) reactions occur on the thylakoid membranes of the chloroplast, where chlorophyll absorbs light energy, water is photolysed to release oxygen gas, and ATP and NADPH are produced. Carbon fixation (the light-independent reactions) occurs in the stroma, where carbon dioxide is fixed and uses the ATP and NADPH from the light-dependent stage to produce carbohydrate.`,
+opts:{
+A:`Option A: Correct. The photochemical reactions take place in the thylakoid membranes, which house the photosystems and chlorophyll; carbon fixation takes place in the stroma, the fluid matrix containing the enzymes of the Calvin cycle.`,
+B:`Option B: Both halves are wrong. Glucose is a product of carbon fixation in the stroma, not of the photochemical reactions; oxygen gas is released by the photolysis of water in the photochemical reactions, not by carbon fixation.`,
+C:`Option C: Reversed. The photochemical reactions produce ATP from ADP and inorganic phosphate; carbon fixation consumes ATP and releases ADP. Note that NADP, not NAD, is the coenzyme of photosynthesis.`,
+D:`Option D: Reversed, and the wrong coenzyme. Photosynthesis uses NADP/NADPH; NAD and NADH belong to respiration. Even allowing for that, the light-dependent stage requires the oxidised carrier and produces the reduced form, while carbon fixation requires the reduced form.`}},
+
+21:{ans:"D",pct:0.32,
+concept:`Magnesium is the mineral needed to make chlorophyll (Mg²⁺ sits at the centre of the porphyrin ring). Without enough chlorophyll, less light energy is absorbed, so the rate of photosynthesis falls and less carbohydrate is produced. Because glucose from photosynthesis is the starting material for storage carbohydrate and for lipid synthesis, a magnesium deficiency reduces all of these downstream products. Options Biological Explanation: Statement (1) chlorophyll: Less. Mg²⁺ is a direct structural component of the chlorophyll molecule, so a shortage limits chlorophyll synthesis — this is why Mg-deficient plants show chlorosis (yellowing leaves). Statement (2) lipid: Less. Lipids are synthesised from glycerol and fatty acids derived ultimately from the glucose made in photosynthesis. With reduced photosynthesis there is less carbon skeleton available, so less lipid accumulates. Statement (3) starch: Less. Starch is the storage carbohydrate formed by condensing excess glucose. Reduced photosynthesis means less surplus glucose, so less starch is stored.`,
+opts:{
+A:`Option A: Incomplete — starch is also reduced, as it comes directly from photosynthetic glucose.`,
+B:`Option B: Incomplete — omits lipid, which also depends on photosynthetic products.`,
+C:`Option C: Incomplete — omits chlorophyll, the most direct effect of Mg deficiency.`,
+D:`Option D: Correct. All three biomolecules are found in lower amounts.`}},
+
+22:{ans:"D",pct:0.63,
+concept:`Controlling variables within a group, not just between groups. In a fair test the only difference between the two groups should be the independent variable (presence of magnesium). Light intensity falls with distance from the source, so a side-mounted lamp gives each seedling in the row a different light intensity, introducing variation within the same group and making individual results hard to compare. A lamp directly above the row illuminates all four seedlings roughly equally.`,
+opts:{
+A:`Option A: Wrong reasoning. Simulating a natural environment is not the priority in a controlled investigation; deliberately creating unequal light intensities within a group adds an uncontrolled variable that confounds the effect of magnesium.`,
+B:`Option B: Sample size is indeed the same in both methods, but that does not make the methods equally good. Equal sample size does not compensate for unequal light exposure among seedlings in Method I.`,
+C:`Option C: Method I is not a fair test at the level of individual seedlings, since light intensity varies systematically across the row. Only Method II keeps light intensity comparable for every seedling.`,
+D:`Option D: Correct. Placing the lamp above means all four seedlings in a group receive approximately the same light intensity, reducing environmental variation within the group so that differences observed can be attributed to the culture solution.`}},
+
+23:{ans:"A",pct:0.31,
+concept:`Mineral uptake requires ATP; water uptake follows osmotically. Root hair cells absorb mineral ions by active transport against a concentration gradient, using ATP generated by the electron transport chain (oxidative phosphorylation) in the mitochondria. Water is absorbed passively by osmosis, driven by the water potential gradient created largely by the solutes accumulated inside root cells. Blocking the electron transport chain therefore reduces both processes — one directly, the other indirectly.`,
+opts:{
+A:`Option A: Correct. Chemical M inhibits the electron transport chain, so far less ATP is produced and active transport of mineral ions slows, decreasing the rate of mineral absorption. With fewer solutes accumulating in root cells, the cell sap water potential becomes less negative, so the water potential gradient between soil solution and root cells is reduced and the rate of water absorption also decreases by osmosis.`,
+B:`Option B: Mineral absorption cannot remain unchanged, because active transport is directly dependent on the ATP that the inhibited electron transport chain would have supplied.`,
+C:`Option C: Correctly identifies reduced mineral absorption, but wrongly claims water absorption is unaffected. Water uptake depends on the solute concentration inside root cells; reduced ion accumulation weakens the osmotic gradient, so water uptake falls.`,
+D:`Option D: Both halves are wrong — this option ignores the ATP dependence of mineral uptake and the osmotic consequence of reduced ion accumulation.`}},
+
+24:{ans:"D",pct:0.42,
+concept:`The compensation point is where the rate of photosynthesis exactly equals the rate of respiration, so there is no net exchange of carbon dioxide and the CO₂ concentration in a closed container stays constant. A variegated leaf has non-green (white) regions lacking chlorophyll, so its photosynthetic capacity per unit area is lower than an all-green leaf of the same size. In dim light the green leaf is already above its compensation point (net CO₂ uptake), while the variegated leaf is exactly at its compensation point.`,
+opts:{
+A:`Option A: Shows CO₂ rising in both containers, which would mean respiration exceeds photosynthesis throughout. This contradicts the information that the variegated leaf is at the compensation point in dim light, and a green leaf in bright light must show net CO₂ uptake.`,
+B:`Option B: In dim light both curves fall. Container Y should be flat in dim light, since at the compensation point CO₂ released by respiration exactly balances CO₂ used in photosynthesis, giving no net change.`,
+C:`Option C: Both curves rise, and container Y is drawn flat then rising. Increasing light intensity increases photosynthesis, so CO₂ must fall, not rise, once the light becomes bright.`,
+D:`Option D: Correct. In dim light, container Y (variegated) is flat because the leaf is at its compensation point, while container X (green) shows a falling CO₂ concentration since its higher chlorophyll content puts it above the compensation point. When light becomes bright, both leaves photosynthesise faster than they respire, so CO₂ falls in both — but more steeply in container X, because the fully green leaf has more chlorophyll and a greater photosynthetic rate.`}},
+
+25:{ans:"C",pct:0.21,
+concept:`Relating the DNA quantity graph to the stages of mitosis. DNA is replicated during the S phase (the rising portion of the graph), so the amount of DNA per cell stays at the doubled level right through G₂, prophase, metaphase, anaphase and telophase. The amount per cell only halves at the end of division, when cytokinesis separates the two daughter cells. In the graph, E is G₁, F is the S phase, G is the high plateau (G₂ plus mitosis), and H is after cytokinesis. Options Biological Explanation: Stage X: Chromosomes are condensed, distinct and scattered without a clear equatorial arrangement — prophase. This lies within period G. Stage Y: Two separate darkly stained nuclei have formed but the cell has not yet been divided into two separate cells by a cell plate — telophase. The DNA of this single cell is still doubled, so it also lies within period G. Stage Z: Chromosomes are aligned in a band across the middle of the cell — metaphase, also within period G.`,
+opts:{
+A:`Option A: Places X in E (G₁) and Y in H. Condensed, visible chromosomes cannot exist in G₁, where chromatin is uncondensed and DNA has not yet replicated.`,
+B:`Option B: Places X in F, the S phase. During DNA replication chromosomes are not condensed into the visible form shown in stage X.`,
+C:`Option C: Correct. All three photomicrographs show stages of mitosis occurring while the cell contains the doubled amount of DNA, so all three fall in period G.`,
+D:`Option D: Incorrectly assigns stage Y to H. Period H follows cytokinesis, when each daughter cell has one nucleus and the halved amount of DNA. Stage Y still shows two nuclei inside one undivided cell, so its DNA content is still at the doubled level.`}},
+
+26:{ans:"D",pct:0.4,
+concept:`Functions of mitosis in plants. Mitosis produces genetically identical daughter cells with the full chromosome number, and it underlies growth, the replacement of worn-out or damaged cells, and asexual reproduction. In plants, mitosis is concentrated in meristems such as the root tip. Options Biological Explanation: Statement (1) embryo from a zygote: A function of mitosis. The zygote divides repeatedly by mitosis to form the multicellular embryo, ensuring every cell carries the same genetic information as the zygote. Statement (2) multiplication of thin-walled cells: A function of mitosis. Meristematic cells in the root tip and shoot tip are small and thin-walled, and they multiply by mitosis to provide the new cells for growth. Statement (3) replacement of cells in the root cap: A function of mitosis. Root cap cells are constantly worn away as the root pushes through soil, and are continually replaced by mitotic division in the meristem behind the cap.`,
+opts:{
+A:`Option A: Incomplete — root cap replacement is also a mitotic function.`,
+B:`Option B: Incomplete — omits the multiplication of thin-walled meristematic cells.`,
+C:`Option C: Incomplete — omits embryo formation, a classic example of growth by mitosis.`,
+D:`Option D: Correct. All three are functions of mitosis in plants.`}},
+
+27:{ans:"B",pct:0.5,
+concept:`Recognising sex linkage from a cross where phenotype correlates perfectly with sex. In fruit flies, males are XY and females XX. A father passes his X chromosome to all his daughters and his Y to all his sons. If every daughter shows the disease and every son is normal, the allele must be carried on the X chromosome and must be dominant, because the daughters receive only one copy of it from their father yet still express the disease.`,
+opts:{
+A:`Option A: The allele is dominant, but an autosomal location cannot explain the result. If the gene were autosomal, the diseased father crossed with a normal mother would produce diseased and normal offspring in both sexes equally, not a perfect split by sex.`,
+B:`Option B: Correct. Let the diseased father be X^Z Y and the normal mother X^z X^z. All daughters are X^Z X^z and show the disease, so the allele must be dominant; all sons are X^z Y and are normal, because they receive their father's Y rather than his X. This matches the observed 116 diseased females and 120 normal males, with no diseased males and no normal females.`,
+C:`Option C: Recessive and autosomal fails on two counts. It cannot produce a sex-linked pattern, and a recessive allele would require the mother to be a carrier, which would still give diseased offspring of both sexes.`,
+D:`Option D: Sex linkage is right but the dominance is wrong. If the allele were X-linked recessive, the diseased father would be X^z Y and the normal mother X^Z X^Z or X^Z X^z. Daughters would receive a dominant normal allele from their mother and be normal — the opposite of what is observed.`}},
+
+28:{ans:"A",pct:0.9,
+concept:`Using DNA fingerprints to infer evolutionary relationships. Species sharing more bands at the same positions have more similar DNA base sequences, indicating a more recent common ancestor and therefore a closer relationship on the phylogenetic tree. Species with few or no bands in common branched off earlier. Closely related species should appear on adjacent branches joined at a recent node; the most divergent species should branch off nearest the base of the tree.`,
+opts:{
+A:`Option A: Correct. Reading the gel, P shares the fewest bands with the others and so is the most distantly related, branching off earliest. S and T share several bands at matching positions, and Q and R share bands with each other, so these pairs must sit on adjacent branches meeting at recent nodes. Option A is the only tree whose branching pattern groups the band-sharing pairs at recent nodes while placing the most dissimilar species on an early-diverging branch.`,
+B:`Option B: Groups the species in an order that separates pairs sharing many bands, placing them on branches that diverged long ago. This contradicts the high band similarity between those species.`,
+C:`Option C: Shows all five species radiating from a single node, implying they all diverged simultaneously from one ancestor with equal relatedness. The gel clearly shows unequal similarity between species, so the relationships cannot all be equivalent.`,
+D:`Option D: Places species with almost no shared bands as the closest relatives on recent branches, and separates species whose fingerprints match closely. This inverts the evidence from the gel.`}},
+
+29:{ans:"B",pct:0.73,
+concept:`Cell differentiation and gene expression. All body cells of an individual arise by mitosis from the same zygote, so they contain the same genome and the same genes. Cells look and function differently because different subsets of genes are switched on and off in different cell types — this differential gene expression produces different proteins, and hence different structures and functions.`,
+opts:{
+A:`Option A: Incorrect. Both cell types are diploid body cells produced by mitosis, so each carries the same two copies of every gene. Copy number is not the source of the difference.`,
+B:`Option B: Correct. The cheek cell and the neurone express different genes: the neurone expresses genes for producing long cytoplasmic processes and neurotransmitters, giving it a branched shape, while the cheek epithelial cell expresses genes suited to a flat protective lining cell.`,
+C:`Option C: Incorrect. The genome is the complete set of genetic material, which is identical in all body cells of the same person since they all descend mitotically from one zygote.`,
+D:`Option D: Incorrect. Both are somatic cells with 46 chromosomes. A different chromosome number would indicate a chromosomal abnormality, not normal differentiation.`}},
+
+30:{ans:"A",pct:0.48,
+concept:`Core Concepts: Transmission across a synapse. The neurotransmitter is synthesised in the axon ending and stored in synaptic vesicles. When an impulse arrives, the vesicles move to and fuse with the presynaptic membrane, releasing neurotransmitter by exocytosis into the synaptic cleft. It then diffuses across and binds to specific receptors on the postsynaptic membrane — here, the membrane of the muscle fibre — triggering contraction. Botox blocks the fusion step, so everything downstream of fusion cannot happen, but everything upstream is unaffected. Options Biological Explanation: Statement (1) binding of neurotransmitter to receptors on muscle fibres: Would not occur. Since no neurotransmitter is released into the cleft, none can diffuse across to bind receptors on the muscle fibre membrane, which is why the facial muscle cannot contract and the wrinkle relaxes. Statement (2) release of neurotransmitter from axon endings: Would not occur. Release happens by vesicles fusing with the presynaptic membrane; Botox blocks precisely this fusion, so exocytosis is prevented. Statement (3) synthesis of neurotransmitter in axon endings: Would still occur. Botox acts only on vesicle fusion, not on the enzymes that manufacture the neurotransmitter. It continues to be made and packaged into vesicles — the vesicles simply accumulate because they cannot fuse and discharge their contents.`,
+opts:{
+A:`Option A: Correct. Only (1) and (2) are blocked.`,
+B:`Option B: Wrongly includes synthesis, which is upstream of the step Botox inhibits.`,
+C:`Option C: Wrongly includes synthesis and omits receptor binding.`,
+D:`Option D: Cannot be right, since neurotransmitter synthesis is unaffected.`}},
+
+31:{ans:"C",pct:0.6,
+concept:`A spinal nerve is a mixed nerve containing both sensory and motor neurones. Sensory neurones carry impulses from receptors in the skin and muscles of the leg to the spinal cord; motor neurones carry impulses from the spinal cord to the effectors (leg muscles). Compressing the nerve interferes with impulse transmission along both types of neurone. Importantly, a spinal nerve is nervous tissue, not a blood vessel — blood supply to the leg is delivered by arteries, which run separately from the nerve pathway shown. Options Biological Explanation: Statement (1) reduction of blood supply to leg muscles: Not a direct symptom. The compressed structure is a spinal nerve, and nerves do not transport blood. Blood reaches the leg muscles through the femoral artery and its branches, which are not compressed by the protruding intervertebral disc. Statement (2) loss of sensation in the leg: A valid symptom. The sensory neurones within the compressed spinal nerve can no longer conduct impulses properly from receptors in the leg to the spinal cord and brain, so the patient experiences numbness or loss of sensation along the path of the nerve. Statement (3) weakening of muscle strength in the leg: A valid symptom. The motor neurones in the same nerve carry impulses to the leg muscles. If these impulses are blocked, fewer muscle fibres are stimulated to contract, so the leg muscles become weak. Over time, lack of stimulation also leads to muscle wasting.`,
+opts:{
+A:`Option A: Wrongly includes the blood supply statement, which confuses nervous tissue with blood vessels.`,
+B:`Option B: Includes the invalid blood supply statement and omits loss of sensation, ignoring the sensory neurones in the mixed nerve.`,
+C:`Option C: Correct. Both sensory function (sensation) and motor function (muscle strength) are affected, because a spinal nerve carries both types of neurone.`,
+D:`Option D: Cannot be right, since compression of a nerve does not restrict blood flow to the leg muscles.`}},
+
+32:{ans:"D",pct:0.92,
+concept:`Interpreting data strictly within the limits of what the graph shows. A graph of number of deaths against year for different age groups allows comparison of death numbers only. Conclusions about causation, infection or exposure history go beyond the data, since no information on carcinogen exposure, viral infection or population size is provided.`,
+opts:{
+A:`Option A: Invalid. The graph simply does not include an age group below 20 — no data were collected for them. Absence of a category is not evidence that those people did not have liver cancer.`,
+B:`Option B: Invalid on two counts. The graph shows deaths, not infections, and it contains no data about viruses at all. Although hepatitis B virus is a known risk factor for liver cancer, that knowledge comes from elsewhere, not from this graph.`,
+C:`Option C: Invalid. Longer exposure to carcinogens is a plausible explanation for the pattern, but it is not a conclusion that can be drawn from the graph, which measures no exposure data whatsoever.`,
+D:`Option D: Correct. Reading the three lines directly, the ≥65 group sits at roughly 900–1100 deaths, the 45–64 group at roughly 400–550, and the 20–44 group near zero throughout the whole period. Higher age groups consistently show a greater number of deaths — a direct description of the data.`}},
+
+33:{ans:"C",pct:0.67,
+concept:`Distinguishing active from passive immunity by the shape of the antibody curve. In active immunity (natural infection or vaccination), the body's own lymphocytes must be activated, divide and differentiate into plasma cells, so antibody concentration rises gradually over days after a lag period. In passive immunity, ready-made antibodies are injected directly, so the concentration jumps almost instantaneously to a high level and then declines steadily as the antibodies are broken down, with no memory cells produced.`,
+opts:{
+A:`Option A: Incorrect. A booster vaccination stimulates the secondary response, which is rapid but still requires memory cells to divide and differentiate into plasma cells — giving a steep rise over several days, not the vertical jump shown. A booster also produces a sustained high level rather than a continuous decline to zero.`,
+B:`Option B: Incorrect. Antibiotics are chemicals that kill or inhibit bacteria; they have no effect on viruses and are not antibodies. They cannot raise antibody concentration at all.`,
+C:`Option C: Correct. The concentration rises vertically at day 20 to about 70000 arbitrary units with no lag period, which is only possible if antibodies were introduced from outside the body. The steady fall to near zero by day 80 reflects the gradual breakdown of these borrowed antibodies, with no plasma cells or memory cells of her own to replenish them — the hallmark of artificially acquired passive immunity.`,
+D:`Option D: Incorrect. Infection triggers a primary response with a lag of several days while B-lymphocytes are activated and clone, so the curve would rise gradually, peak, then fall to a low but non-zero level, with memory cells remaining. The instantaneous vertical rise rules out infection.`}},
+
+34:{ans:"D",pct:0.24,
+concept:`Distribution of antibodies in body fluids. Antibodies are soluble proteins carried in blood plasma, and because plasma is the source of tissue fluid, lymph and various secretions, antibodies are found widely throughout the body's fluids — not confined to blood.`,
+opts:{
+A:`Statement (1) breast milk: Antibodies are present. Milk contains antibodies secreted by the mammary glands, which is the basis of natural passive immunity transferred from mother to baby during breastfeeding.`,
+B:`Statement (2) cerebrospinal fluid: Antibodies are present. Cerebrospinal fluid is derived from blood plasma, and although the amount is low, antibodies do occur there — this is what allows the immune system to respond to infections of the brain and spinal cord such as meningitis.`,
+C:`Statement (3) saliva: Antibodies are present. Saliva contains secreted antibodies as part of the body's non-specific and specific defence at the mucosal surfaces of the mouth.`,
+D:`Option D: Correct. Antibodies can be found in all three fluids.`}},
+
+35:{ans:"A",pct:0.68,
+concept:`Reading a data table to compare treatments, and distinguishing what the data support from what merely sounds plausible. Doubling time is an inverse measure of growth rate: a longer doubling time means slower reproduction and therefore greater inhibition. Correlation in a table does not establish a causal mechanism between two separately measured variables.`,
+opts:{
+A:`Option A: Correct. Bacteria X take 80 minutes to double with tea tree oil M, compared with 30 minutes with tea tree oil N and 30 minutes in the plain culture medium. Oil M more than doubles the generation time while oil N leaves it unchanged from the control, so M is clearly the more effective growth inhibitor.`,
+B:`Option B: Cannot be deduced. All three media are bacterial cultures in the laboratory; no human wounds were involved and no healing was measured. Inhibiting bacterial growth in a culture medium does not automatically translate to wound healing in a person.`,
+C:`Option C: Not supported. The −20% figure refers to the amount of protein P used in respiration, not to the rate of respiration itself. A 20% fall in the quantity of one respiratory protein does not mean respiration rate fell by exactly 20%, since rate depends on many enzymes and on substrate availability.`,
+D:`Option D: The causal claim goes beyond the data. Protein Q (for translation) and protein P (for respiration) both fell by 20%, but the table only shows they changed together. It provides no evidence that the drop in translation caused the drop in the respiratory protein — the oil could be acting on both independently.`}},
+
+36:{ans:"B",pct:0.57,
+concept:`Redness and swelling are the classic signs of inflammation, a non-specific defence response. Histamine released by damaged tissue and mast cells causes vasodilation (increasing blood flow, hence redness and heat) and increases capillary permeability, so more plasma leaks into the tissue and causes swelling. Any treatment that removes redness and swelling while leaving the bacteria unaffected must be acting on the inflammatory response rather than on the microbe.`,
+opts:{
+A:`Option A: The opposite of the observed result. Increased capillary permeability allows more fluid to escape into the tissues, which would worsen the swelling. Group I showed no swelling at all.`,
+B:`Option B: Correct. Group I, treated with oil N, showed neither redness nor swelling, while the control Group II with a patch alone developed both. Since the earlier table shows oil N does not slow bacterial growth (doubling time 30 minutes, identical to the plain culture medium), the bacteria are presumably still present. The oil must therefore be suppressing the inflammatory response itself, and inhibiting histamine release explains the loss of both signs at once: no vasodilation means no redness, and no increase in capillary permeability means no swelling.`,
+C:`Option C: Contradicted by the data in Question 35. Bacteria X double every 30 minutes in medium with oil N, exactly as in the plain culture medium, so oil N neither kills the bacteria nor inhibits their growth.`,
+D:`Option D: The opposite of the observed result. Promoting blood flow means vasodilation, which produces redness and contributes to swelling — precisely what was absent in Group I.`}}
 }
 
 };
