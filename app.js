@@ -196,17 +196,21 @@
 
   /* ---------- scroll reveal ---------- */
   function revealAll() {
-    var els = document.querySelectorAll('.reveal');
-    for (var i = 0; i < els.length; i++) els[i].classList.add('in');
-  }
-  if ('IntersectionObserver' in window) {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
-      });
-    }, { threshold: .12, rootMargin: '0px 0px -6% 0px' });
+  var els = document.querySelectorAll('.reveal');
+  for (var i = 0; i < els.length; i++) els[i].classList.add('in');
+}
+if ('IntersectionObserver' in window) {
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { threshold: .12, rootMargin: '0px 0px -6% 0px' });
+  
+  // Add a small delay to ensure proper initial observation
+  setTimeout(function() {
     document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
-  } else { revealAll(); }
+  }, 100);
+} else { revealAll(); }
 
   /* ---------- restore state ---------- */
   var y0 = years[0], n0 = null;
