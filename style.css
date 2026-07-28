@@ -84,7 +84,11 @@ h1{font-weight:700;letter-spacing:-.037em;line-height:1.03;
 }
 .lede{margin:20px auto 0;max-width:34ch;color:var(--ink-2);
   font-size:clamp(17px,2.6vw,21px);letter-spacing:-.014em;text-wrap:pretty;
-       font-variant-ligatures:none;font-feature-settings:"liga" 0, "clig" 0;}
+  font-variant-ligatures:none;
+  font-feature-settings:"liga" 0, "clig" 0, "dlig" 0;
+  -webkit-font-feature-settings:"liga" 0, "clig" 0, "dlig" 0;
+  -moz-font-feature-settings:"liga" 0, "clig" 0, "dlig" 0;
+}
 
 /* ───────── Cards ───────── */
 .card{
