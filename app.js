@@ -115,7 +115,10 @@
     prevBtn.disabled = (i <= 0);
     nextBtn.disabled = (i === qList.length - 1);
     counter.textContent = 'Question ' + n + ' of ' + qList[qList.length - 1];
-
+    prevBtn2.disabled = (i <= 0);
+    nextBtn2.disabled = (i === qList.length - 1);
+    counter2.textContent = 'Question ' + n + ' of ' + qList[qList.length - 1];
+     
     localStorage.setItem('bio1a', y + '|' + n);
     history.replaceState(null, '', '#' + y + '-' + n);
 
